@@ -1,0 +1,275 @@
+/**utilites**/
+/**bases**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #202020; }
+
+@font-face {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf); }
+
+@font-face {
+  font-family: "radiocanadabig";
+  src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: "montserrat alter";
+  src: url(../assets/fonts/MontserratAlternates-Bold.ttf); }
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat-Black.ttf); }
+
+.fuenteRadioCanadabig {
+  font-family: "radiocanadabig"; }
+
+.fuenteRadioCanada {
+  font-family: "radiocanada"; }
+
+/**layout**/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px; }
+  header .logo img {
+    width: auto;
+    height: 1.5625rem;
+    margin: 1.875rem; }
+  header .menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 1.875rem;
+    margin: 0 .625rem;
+    margin-left: 31.25rem; }
+  header .menu li {
+    margin-right: 3.125rem; }
+  header .menu li:last-child {
+    margin-right: 0; }
+  header .menu a {
+    color: #E8E8E8;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; }
+    header .menu a:hover {
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  header .bonton {
+    width: 9.375rem;
+    height: 2.5rem;
+    background-color: #E8E8E8;
+    border-radius: 6.25rem;
+    cursor: pointer;
+    font-size: 16px;
+    color: #202020;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    border: none; }
+    header .bonton:active {
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      color: #E8E8E8; }
+  header .nav-menu-hamburgueza {
+    display: none; }
+
+.imagen-indexarriba {
+  height: 81.25rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 6.25rem; }
+
+.h1-index {
+  font-weight: bold;
+  font-size: 47px;
+  margin-left: 1.875rem;
+  margin-top: -71.69rem;
+  color: #E8E8E8;
+  text-transform: uppercase;
+  letter-spacing: .5625rem; }
+  .h1-index .h1-index-mobile {
+    display: none; }
+  .h1-index .text-degrade {
+    background: #00ffda;
+    background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.texto-secudario-index .h2-index {
+  font-size: 24px;
+  margin-left: 1.875rem;
+  margin-top: .625rem;
+  color: #E8E8E8; }
+
+.texto-secudario-index .medium-h2 {
+  font-weight: 31.25rem;
+  margin-left: 1.875rem; }
+
+.texto-secudario-index .negrita-h2 {
+  font-weight: 43.75rem;
+  text-transform: uppercase; }
+
+.texto-secudario-index .retangulo {
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  height: .3125rem;
+  margin-left: 1.25rem;
+  width: 31.25rem; }
+
+.texto-secudario-index .unete-ahora {
+  width: 19.375rem;
+  height: 4.6875rem;
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  border-radius: 6.25rem;
+  cursor: pointer;
+  font-size: 28px;
+  color: #E8E8E8;
+  font-weight: bold;
+  margin-left: 6.25rem;
+  margin-top: 3.125rem;
+  letter-spacing: .1875rem;
+  border: none; }
+  .texto-secudario-index .unete-ahora:active {
+    background: transparent;
+    border: 5px solid #E8E8E8;
+    color: #E8E8E8; }
+
+.texto-secudario-index .icon-flecha-circular {
+  margin-left: 270px;
+  margin-top: 70px; }
+
+.contador-general {
+  display: grid;
+  grid-template-columns: 12.5rem 12.5rem 12.5rem;
+  grid-template-rows: 6.25rem 6.25rem;
+  grid-template-areas: "contador imagenes imagenes" "contador descripcion descripcion";
+  grid-row-gap: none;
+  grid-column-gap: none;
+  margin-left: 1.875rem;
+  margin-top: 4.375rem;
+  justify-items: center; }
+  .contador-general .contador {
+    width: 10.125rem;
+    height: 10.25rem;
+    background: #00ffda;
+    background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+    border-radius: 3.125rem;
+    cursor: pointer;
+    font-size: 3.125rem;
+    color: #E8E8E8;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: contador;
+    margin-top: .9375rem; }
+  .contador-general .imagenes {
+    grid-area: imagenes;
+    align-items: center; }
+  .contador-general .descripcion {
+    grid-area: descripcion;
+    font-size: 19.7px;
+    color: #E8E8E8;
+    font-weight: 25rem; }
+  .contador-general .num-40 {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline; }
+  .contador-general .neurona {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline; }
+
+.contenedor-personaliza {
+  border-radius: 100px 100px 0px 0px;
+  background-color: #E8E8E8;
+  height: 42.375rem;
+  margin-top: 15.625rem;
+  box-shadow: inset 0px 10px 10px #B0B0B0; }
+  .contenedor-personaliza .h2-personaliza {
+    color: #202020;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    text-transform: uppercase;
+    padding-top: 5.625rem; }
+  .contenedor-personaliza .text-inferior {
+    font-size: 38px;
+    font-weight: 25rem;
+    text-transform: none; }
+  .contenedor-personaliza .p-personaliza {
+    color: #202020;
+    font-size: 20px;
+    font-weight: 6.25rem;
+    display: flex;
+    justify-content: right;
+    margin-right: 2.5rem;
+    margin-top: -20.3125rem; }
+  .contenedor-personaliza span.line-break {
+    display: block;
+    margin-bottom: 10px; }
+  .contenedor-personaliza .control-futuro {
+    font-size: 24px;
+    font-weight: bold; }
+  .contenedor-personaliza .you {
+    font-family: "montserrat alter";
+    src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+    font-size: 24px;
+    font-weight: bold; }
+  .contenedor-personaliza .financ {
+    font-family: "montserrat";
+    src: url(../assets/fonts/Montserrat-Black.ttf);
+    font-size: 24px;
+    font-weight: 56.25rem; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  background-color: #E8E8E8;
+  border-radius: 6.25rem 6.25rem 0rem 0rem;
+  width: 82.5rem;
+  height: 14.1875rem;
+  margin-left: 3.125rem;
+  margin-top: 12.5rem;
+  box-shadow: inset 0px 10px 10px #B0B0B0; }
+  footer .menu-footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 1.875rem;
+    margin: 0 .625rem;
+    margin-left: 3.125rem; }
+  footer .menu-footer li {
+    margin-right: 1.25rem; }
+  footer .menu-footer li:last-child {
+    margin-right: 0; }
+  footer .menu-footer a {
+    color: #BEBEBE;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; }
+    footer .menu-footer a:hover {
+      color: #202020;
+      text-decoration: underline; }
+  footer .logo-footer {
+    margin-left: .625rem; }
+  footer .redes-sociales ul {
+    display: flex;
+    list-style-type: none; }
+  footer .redes-sociales li {
+    margin-right: 1.25rem; }
+  footer .redes-sociales li:last-child {
+    margin-right: 0; }
+
+/**componentes**/

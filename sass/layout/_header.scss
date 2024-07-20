@@ -1,0 +1,51 @@
+header{
+    @include flex;
+    .logo img{
+        width: auto;
+        height: 1.5625rem;
+        margin: 1.875rem;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin-right: 1.875rem;
+        margin: 0 .625rem;
+        margin-left: 31.25rem;
+    }
+    .menu li{
+        margin-right: 3.125rem;
+    }
+    .menu li:last-child{
+        margin-right: 0;
+    }
+    .menu a{
+        color: map-get($colores, color2);
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover{
+            @include color-degrade-100;
+        }
+    }
+    .bonton{
+        width: 9.375rem;
+        height: 2.5rem;
+        background-color: map-get($colores, color2);
+        border-radius: 6.25rem;
+        cursor: pointer;
+        font-size: 16px;
+        color: map-get($colores, color1);
+        font-weight: bold;
+        margin-left: 2.5rem;
+        border: none;
+        &:active{
+            background: rgb(0,255,218);
+            background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            color: map-get($colores, color2);
+    }
+}
+.nav-menu-hamburgueza{
+    display: none;
+}
+}
