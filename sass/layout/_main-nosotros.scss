@@ -4,3 +4,27 @@
     margin-top: 100px;
     margin-right: 100px;
 }
+.title-nosotros-principal{
+    .h1{
+        color: map-get($colores , color2 );
+        font-size: 55px;
+        margin-top: -790px;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+    }
+    .h2{
+        background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 30%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 150px;
+        height: 150px;
+    }
+}
