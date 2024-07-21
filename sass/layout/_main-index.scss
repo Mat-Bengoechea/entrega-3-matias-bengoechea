@@ -206,8 +206,6 @@
             margin-top: 3.125rem;
         }
         .lista-clasificacion{
-            font-family:"radiocanada" ;
-            src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
             color: map-get($colores , color2 );
             text-align: center;
             font-weight: 6.25rem;
@@ -440,8 +438,6 @@
         @include color-degrade-100;
     }
     .h3-index2{
-        font-family:"radiocanada" ;
-        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
         color: map-get($colores , color2 );
         font-size: 18px;
         font-weight: 31.25rem;
@@ -449,8 +445,6 @@
         margin-top: 50px;
     }
     .p-index2{
-        font-family:"radiocanada" ;
-        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
         color: map-get($colores , color2 );
         font-size: 18px;
         font-weight: 18.75rem;

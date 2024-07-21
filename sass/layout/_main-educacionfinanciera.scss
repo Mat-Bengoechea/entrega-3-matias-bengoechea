@@ -25,8 +25,6 @@
         color: map-get($colores , color2 );
     }
     .p-educacionfinanciera{
-        font-family:"radiocanada" ;
-        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
         color: map-get($colores , color2 );
         font-weight: 300;
         font-size: 14px;
@@ -45,8 +43,6 @@
     @include grid(670px 670px,220px 420px 420px 420px 420px 420px 420px 420px,"introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7", 30px,none);
 justify-content: center;
 .p-educacionfinanciera2{
-    font-family:"radiocanada" ;
-    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
     color: map-get($colores , color3 );
     font-weight: 300;
     font-size: 24px;
@@ -401,16 +397,12 @@ justify-content: center;
         font-weight: 300;
         color: map-get($colores , color2 );
         text-align: center;
-        font-family:"radiocanada" ;
-        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
     }
     .pregunta-frecuente{
         font-size: 24px;
         font-weight: 300;
         color: map-get($colores , color2 );
         text-align: center;
-        font-family:"radiocanada" ;
-        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
         .p-preguntafrecuente{
             position: absolute;
             margin-top: 40px;

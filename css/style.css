@@ -275,8 +275,6 @@ header {
       text-align: center;
       margin-top: 3.125rem; }
     .contenido-usuario-principal .conten-info-person .lista-clasificacion {
-      font-family: "radiocanada";
-      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
       color: #E8E8E8;
       text-align: center;
       font-weight: 6.25rem;
@@ -481,8 +479,6 @@ header {
   -webkit-text-fill-color: transparent; }
 
 .title-segundo .h3-index2 {
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
   color: #E8E8E8;
   font-size: 18px;
   font-weight: 31.25rem;
@@ -490,8 +486,6 @@ header {
   margin-top: 50px; }
 
 .title-segundo .p-index2 {
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
   color: #E8E8E8;
   font-size: 18px;
   font-weight: 18.75rem;
@@ -559,8 +553,6 @@ header {
   color: #E8E8E8; }
 
 .title-educacion .p-educacionfinanciera {
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
   color: #E8E8E8;
   font-weight: 300;
   font-size: 14px;
@@ -583,8 +575,6 @@ header {
   grid-column-gap: none;
   justify-content: center; }
   .contenedor-informativo .p-educacionfinanciera2 {
-    font-family: "radiocanada";
-    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
     color: #BEBEBE;
     font-weight: 300;
     font-size: 24px;
@@ -844,17 +834,13 @@ header {
   font-size: 24px;
   font-weight: 300;
   color: #E8E8E8;
-  text-align: center;
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf); }
+  text-align: center; }
 
 .title-2-educacion .pregunta-frecuente {
   font-size: 24px;
   font-weight: 300;
   color: #E8E8E8;
-  text-align: center;
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf); }
+  text-align: center; }
   .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
     position: absolute;
     margin-top: 40px;
@@ -884,8 +870,6 @@ header {
   margin-top: -270px; }
 
 .title-1-contacto .h2-contacto {
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
   color: #E8E8E8;
   font-size: 36px;
   font-weight: 300;
@@ -895,8 +879,6 @@ header {
   margin-top: 30px; }
 
 .title-1-contacto .p-contacto {
-  font-family: "radiocanada";
-  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
   color: #E8E8E8;
   text-transform: lowercase;
   text-align: center;
@@ -936,8 +918,6 @@ header {
     margin-left: 70px; }
   .contenedor-formulario .p-contacto2 {
     grid-area: descripcion;
-    font-family: "radiocanada";
-    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
     color: #202020;
     font-size: 24px;
     font-weight: 300;
@@ -951,8 +931,6 @@ header {
       font-weight: bold; }
   .contenedor-formulario .formulario {
     grid-area: formulario;
-    font-family: "radiocanadabig";
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     text-decoration: underline;
     font-size: 28px;
     font-weight: 400;
@@ -1057,8 +1035,6 @@ header {
         -webkit-text-fill-color: transparent; }
     .sector-contactanos .correo-electronico-contenedor .p {
       text-align: center;
-      font-family: "radiocanada";
-      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
       font-size: 15px;
       font-weight: 400px;
       margin-top: 10px; }
@@ -1086,8 +1062,6 @@ header {
       text-transform: uppercase; }
     .sector-contactanos .telefono-contenedor .p {
       text-align: center;
-      font-family: "radiocanada";
-      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
       font-size: 15px;
       font-weight: 400;
       margin-top: 50px; }
