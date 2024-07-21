@@ -14,10 +14,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@mixin color-degrade-90{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-degrade-50{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @mixin flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 30px;
+}
+
+@mixin flex-p($justify,$align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
 }

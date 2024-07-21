@@ -163,3 +163,331 @@
         font-weight: 56.25rem;
     }
 }
+
+.contenido-usuario-principal{
+    display: grid;
+    grid-template-columns: 392px 258px 258px 258px;
+    grid-template-rows: none;
+    margin-top: -12.5rem;
+    grid-gap: 3.1875rem;
+    justify-content: center;
+    .conten-info-person{
+        width: 24.5rem;
+        height: 32.875rem;
+        background-color: #2F2F2F;
+        border-radius: 50px;
+        filter: drop-shadow(0px 10px 10px #000000) opacity(2);
+        .icon-personal{
+            background-color: map-get($colores , color2 );
+            border-radius: 100px;
+            width: 4.875rem;
+            height: 4.875rem;
+            margin-top: 3.125rem;
+            margin-left: 1.25rem;
+            @include flex-p(flex,center);
+        }
+        .h2-info-perfil{
+            color: map-get($colores , color2 );
+            font-weight: bold;
+            font-size: 22px;
+            text-transform: uppercase;
+            margin-left: 7.5rem;
+            text-align: left;
+            margin-top: -5rem;
+        }
+        .h2-personal{
+            @include color-degrade-100;
+        }
+        .p-gestiona{
+            color: map-get($colores , color2 );
+            font-weight: 25rem;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 3.125rem;
+        }
+        .lista-clasificacion{
+            font-family:"radiocanada" ;
+            src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+            color: map-get($colores , color2 );
+            text-align: center;
+            font-weight: 6.25rem;
+            font-size: 18px;
+            margin-top: 3.125rem;
+            width: 18.75rem;
+            margin-left: 2.8125rem;
+        }
+        .empezar{
+            width: 11.875rem;
+            height: 3.125rem;
+            background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 24px;
+            color: map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 6.25rem;
+            margin-top: 4.375rem;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            border: none;
+            .textbutton{
+                margin-left: 20px
+            }
+            .iconbutton{
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            img{
+                width: 34px;
+                height: 34px;
+                transform: rotate(45deg);
+            }
+            &:active{
+                background: transparent;
+                border: 5px solid map-get($colores , color2 );
+                    color: map-get($colores , color2 );
+                }
+        }    
+    }
+    .conten-objetivo{
+        width: 16.125rem;
+        height: 26.3125rem;
+        background-color: #212121;
+        border-radius: 50px;
+        filter: drop-shadow(0px 10px 10px #000000) opacity(2);
+        .icon-objetivo{
+            background-color: map-get($colores , color2 );
+            border-radius: 100px;
+            width: 78px;
+            height: 78px;
+            margin-top: 50px;
+            margin-left: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .h2-objetivo-finan{
+            color: map-get($colores , color2 );
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        .empezar2{
+            width: 190px;
+            height: 50px;
+            background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 24px;
+            color:map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 30px;
+            margin-top: 70px;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            border: none;
+            .textbutton2{
+                margin-left: 20px
+            }
+            .iconbutton2{
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            img{
+                width: 34px;
+                height: 34px;
+                transform: rotate(45deg);
+            }
+            &:active{
+                background: transparent;
+                border: 5px solid map-get($colores , color2 );
+                    color: map-get($colores , color2 );
+                }
+        }
+    }
+    .conten-herramienta{
+        width: 16.125rem;
+        height: 26.3125rem;
+        background-color: #212121;
+        border-radius: 50px;
+        filter: drop-shadow(0px 10px 10px #000000) opacity(2);
+        .icon-herramienta{
+            background-color: map-get($colores , color2 );
+            border-radius: 100px;
+            width: 78px;
+            height: 78px;
+            margin-top: 50px;
+            margin-left: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .h2-herramientas-inter{
+            color: map-get($colores , color2 );
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        .empezar3{
+            width: 190px;
+            height: 50px;
+            background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 24px;
+            color:map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 30px;
+            margin-top: 70px;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            border: none;
+            .textbutton3{
+                margin-left: 20px
+            }
+            .iconbutton3{
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            img{
+                width: 34px;
+                height: 34px;
+                transform: rotate(45deg);
+            }
+            &:active{
+                background: transparent;
+                border: 5px solid map-get($colores , color2 );
+                    color: map-get($colores , color2 );
+                }
+        }
+    }
+    .conten-soporte{
+        width: 16.125rem;
+        height: 26.3125rem;
+        background-color: #212121;
+        border-radius: 50px;
+        filter: drop-shadow(0px 10px 10px #000000) opacity(2);
+        .icon-soporte{
+            background-color: map-get($colores , color2 );
+            border-radius: 100px;
+            width: 78px;
+            height: 78px;
+            margin-top: 50px;
+            margin-left: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .h2-soporte-asist{
+            color: map-get($colores , color2 );
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        .empezar4{
+            width: 190px;
+            height: 50px;
+            background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 24px;
+            color:map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 30px;
+            margin-top: 70px;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            border: none;
+            .textbutton4{
+                margin-left: 20px
+            }
+            .iconbutton4{
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            img{
+                width: 34px;
+                height: 34px;
+                transform: rotate(45deg);
+            }
+            &:active{
+                background: transparent;
+                border: 5px solid map-get($colores , color2 );
+                    color: map-get($colores , color2 );
+                }
+        }
+    }
+}
+.title-segundo{
+    .h2-index2{
+        letter-spacing: 9px;
+        font-size: 60px;
+        font-weight: bold;
+        color: map-get($colores , color2 );
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 170px;
+    }
+    .financiera{
+        @include color-degrade-100;
+    }
+    .h3-index2{
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        font-size: 18px;
+        font-weight: 31.25rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .p-index2{
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        font-size: 18px;
+        font-weight: 18.75rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .p-index2-mobile{
+        display: none;
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .buttom-index2{
+        width: 363px;
+        height: 87px;
+        background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 36px;
+        color:map-get($colores , color2 );
+        font-weight: bold;
+        letter-spacing: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 530px;
+        margin-top: -45px;
+        position: absolute;
+        border: none;
+        border: 10px solid map-get($colores , color1 );
+        &:active{
+            background: map-get($colores , color1 );
+            border: 5px solid map-get($colores , color2 );
+                color: map-get($colores , color2 );
+            }
+    }
+}

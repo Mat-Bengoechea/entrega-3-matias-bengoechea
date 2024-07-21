@@ -1,0 +1,231 @@
+.imag-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    img{
+        width: 750px;
+    }
+}
+
+.title-1-contacto{
+    .h1-contacto{
+        font-weight: bold;
+        font-size:60px;
+        text-align: center;
+        @include color-degrade-90;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        margin-top: -270px;
+    }
+    .h2-contacto{
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        font-size: 36px;
+        font-weight: 300;
+        letter-spacing: 9px;
+        text-transform: lowercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .p-contacto{
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        text-transform: lowercase;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 24px;
+        letter-spacing: 4px;
+        font-weight: 300;
+        .contacto-nosotros{
+            font-size: 26px;
+            font-weight: bold;
+            @include color-degrade-50;
+        }
+    }
+}
+.contenedor-formulario{
+    width: 1440px;
+    height: 694px;
+    background: map-get($colores , color2 );
+    border-radius: 100px 100px 0px 0px;
+    box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+    margin-top: 200px;
+    @include grid(550px 550px,21.6875rem 21.6875rem,"envianos formulario" "descripcion boton-formulario",none,250px);
+    justify-content: center;
+    .h2-contacto-envianos{
+        color: map-get($colores , color1 );
+        font-size: 45px;
+        text-transform: uppercase;
+        grid-area: envianos;
+        margin-top: 70px;
+        margin-left: 70px;
+        }
+        .p-contacto2{
+            grid-area: descripcion;
+            font-family:"radiocanada" ;
+            src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color1 );
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: -70px;
+        margin-left: 70px;
+        .contacto-contigo{
+            font-weight: bold;
+        }        
+        }
+        .p-contacto2-mobile{
+            display: none;
+            .contacto-contigo{
+                font-weight: bold;
+            }           
+        }
+        .formulario{
+            grid-area: formulario;
+            font-family:"radiocanadabig" ;
+            src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+            text-decoration: underline;
+            font-size: 28px;
+            font-weight: 400;
+            width: 400px;
+            margin-top: 50px;
+            .input-form{
+                input{
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: -240px;
+                    border: none;
+                    background: map-get($colores , color3 );
+                    border-radius: 100px;
+                    height: 58px;
+                    width: 500px;
+                }
+            } 
+            .input-form2{
+                margin-top: 80px;
+                input{
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: -246px;
+                    border: none;
+                    background: map-get($colores , color3 );
+                    border-radius: 100px;
+                    height: 58px;
+                    width: 500px;
+                }
+            }
+            .input-form3{
+                margin-top: 80px;
+                input{
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: -126px;
+                    border: none;
+                    background: map-get($colores , color3 );
+                    border-radius: 50px;
+                    height: 179px;
+                    width: 500px;
+                }
+            }
+        }  
+        .botton-formulario{
+            grid-area: boton-formulario;
+            .bonton-input{
+                width: 200px;
+                height: 50px;
+                background: rgb(0,255,218);
+                background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+                border-radius: 100px;
+                cursor: pointer;
+                font-size: 24px;
+                color:map-get($colores , color2 );
+                font-weight: bold;
+                margin-left: 100px;
+                letter-spacing: 3px;
+                border: none;
+                margin-top: 250px;
+                &:active{
+                    background: transparent;
+                    border: 5px solid #202020;
+                        color: #202020;
+                    }
+            }
+        }      
+}
+.sector-contactanos{
+    @include grid(500px 500px,400px 400px,"h1 h1" "card1 card2",50px,none);
+    justify-content: center;
+    margin-top: 120px;
+    .h2-contacto2{
+        grid-area: h1;
+        text-transform: uppercase;
+        color: map-get($colores , color2 );
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 150px;
+        .Directamente{
+            @include color-degrade-100;
+        }
+    }
+    .correo-electronico-contenedor{
+        grid-area: card1;
+        background: map-get($colores , color2 );
+        border-radius: 50px;
+        width: 257px;
+        height: 246px;
+        box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+        margin-left: 160px;
+        margin-top: 50px;
+        img{
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h2-card1contacto{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+            .electronico-card1{
+                @include color-degrade-100;
+            }
+        }
+        .p{
+            text-align: center;
+            font-family:"radiocanada" ;
+            src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+            font-size: 15px;
+            font-weight: 400px;
+            margin-top: 10px;
+        }
+    }
+    .telefono-contenedor{
+        grid-area: card2;
+        background: map-get($colores , color2 );
+        border-radius: 50px;
+        width: 257px;
+        height: 246px;
+        box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+        margin-left: 80px;
+        margin-top: 50px;
+        img{
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h2{
+            text-align: center;
+            @include color-degrade-90;
+            margin-top: 10px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .p{
+            text-align: center;
+            font-family:"radiocanada" ;
+            src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+    }
+}

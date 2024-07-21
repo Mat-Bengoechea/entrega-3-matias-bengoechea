@@ -1,0 +1,424 @@
+.image-educacionfinanciera{
+    height: 957px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+}
+
+.title-educacion{
+    .h1-educacionfinanciera{
+        font-weight: bold;
+        font-size: 50px;
+        margin-left: 1.875rem;
+        margin-top: -750px;
+        color: map-get($colores , color2 );
+        text-transform: uppercase;
+        letter-spacing: 9px;
+    }
+    .h1-financiera2{
+        @include color-degrade-100;
+    }
+    .h2-educacionfinanciera{
+        font-size: 18px;
+        margin-left: 6.25rem;
+        margin-top: .625rem;
+        color: map-get($colores , color2 );
+    }
+    .p-educacionfinanciera{
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 870px;
+        margin-top: 10px;
+    }
+}
+.contenedor-informativo{
+    background: map-get($colores , color2 );
+    width: 100%;
+    height: 3421px;
+    border-radius: 100px;
+    box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+    margin-top: 750px;
+    @include grid(670px 670px,220px 420px 420px 420px 420px 420px 420px 420px,"introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7", 30px,none);
+justify-content: center;
+.p-educacionfinanciera2{
+    font-family:"radiocanada" ;
+    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+    color: map-get($colores , color3 );
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 100px;
+    text-align: center;
+    grid-area: introedu;
+}
+.p-educacionmarcado{
+    font-weight: bold;
+}
+.seccion1{
+    grid-area: seccion1;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }    
+}
+.contenidotitulo1{
+    grid-area: contenido1;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen1{
+        margin-top: -200px;
+    }
+    
+    .imagen2{
+        margin-top: -10px;
+    }
+    
+    .imagen3{
+        margin-top: -50px;
+    }
+}
+.seccion2{
+    grid-area: seccion2;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo2{
+    grid-area: contenido2;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen12{
+        margin-top: -200px;
+    }
+    
+    .imagen22{
+        margin-top: -90px;
+    }
+    
+    .imagen32{
+        margin-top: -70px;
+    }
+}
+.seccion3{
+    grid-area: seccion3;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo3{
+    grid-area: contenido3;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen13{
+        margin-top: -200px;
+    }
+    
+    .imagen23{
+        margin-top: -90px;
+    }
+    
+    .imagen33{
+        margin-top: -50px;
+    }
+}
+
+.seccion4{
+    grid-area: seccion4;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo4{
+    grid-area: contenido4;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen14{
+        margin-top: -200px;
+    }
+    
+    .imagen24{
+        margin-top: -90px;
+    }
+    
+    .imagen34{
+        margin-top: -50px;
+    }
+}
+
+.seccion5{
+    grid-area: seccion5;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo5{
+    grid-area: contenido5;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen15{
+        margin-top: -200px;
+    }
+    
+    .imagen25{
+        margin-top: -90px;
+    }
+    
+    .imagen35{
+        margin-top: -50px;
+    }
+}
+
+.seccion6{
+    grid-area: seccion6;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo6{
+    grid-area: contenido6;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen16{
+        margin-top: -200px;
+    }
+    
+    .imagen26{
+        margin-top: -90px;
+    }
+    
+    .imagen36{
+        margin-top: -50px;
+    }
+}
+
+.seccion7{
+    grid-area: seccion7;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo7{
+    grid-area: contenido7;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contenidotitulo7 ul{
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 620px;
+    }
+    .imagen17{
+        margin-top: -200px;
+    }
+    
+    .imagen27{
+        margin-top: -90px;
+    }
+    
+    .imagen37{
+        margin-top: -50px;
+    }
+}
+}
+
+.title-2-educacion{
+    .h2-preguntas{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 60px;
+        color: map-get($colores , color2 );
+        margin-top: 150px;
+    }
+    .frecuentes{
+        @include color-degrade-100;
+    }
+    .FAQs{
+        font-size: 24px;
+        font-weight: 300;
+        color: map-get($colores , color2 );
+        text-align: center;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+    }
+    .pregunta-frecuente{
+        font-size: 24px;
+        font-weight: 300;
+        color: map-get($colores , color2 );
+        text-align: center;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        .p-preguntafrecuente{
+            position: absolute;
+            margin-top: 40px;
+            margin-left: -550px;
+        }
+        img{
+            margin-top: 30px;
+            margin-right: -550px;
+        }
+    }
+}

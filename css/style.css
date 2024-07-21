@@ -231,6 +231,873 @@ header {
     font-size: 24px;
     font-weight: 56.25rem; }
 
+.contenido-usuario-principal {
+  display: grid;
+  grid-template-columns: 392px 258px 258px 258px;
+  grid-template-rows: none;
+  margin-top: -12.5rem;
+  grid-gap: 3.1875rem;
+  justify-content: center; }
+  .contenido-usuario-principal .conten-info-person {
+    width: 24.5rem;
+    height: 32.875rem;
+    background-color: #2F2F2F;
+    border-radius: 50px;
+    filter: drop-shadow(0px 10px 10px #000000) opacity(2); }
+    .contenido-usuario-principal .conten-info-person .icon-personal {
+      background-color: #E8E8E8;
+      border-radius: 100px;
+      width: 4.875rem;
+      height: 4.875rem;
+      margin-top: 3.125rem;
+      margin-left: 1.25rem;
+      display: flex;
+      justify-content: flex;
+      align-items: center; }
+    .contenido-usuario-principal .conten-info-person .h2-info-perfil {
+      color: #E8E8E8;
+      font-weight: bold;
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-left: 7.5rem;
+      text-align: left;
+      margin-top: -5rem; }
+    .contenido-usuario-principal .conten-info-person .h2-personal {
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .contenido-usuario-principal .conten-info-person .p-gestiona {
+      color: #E8E8E8;
+      font-weight: 25rem;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 3.125rem; }
+    .contenido-usuario-principal .conten-info-person .lista-clasificacion {
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      color: #E8E8E8;
+      text-align: center;
+      font-weight: 6.25rem;
+      font-size: 18px;
+      margin-top: 3.125rem;
+      width: 18.75rem;
+      margin-left: 2.8125rem; }
+    .contenido-usuario-principal .conten-info-person .empezar {
+      width: 11.875rem;
+      height: 3.125rem;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      border-radius: 100px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #E8E8E8;
+      font-weight: bold;
+      margin-left: 6.25rem;
+      margin-top: 4.375rem;
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      border: none; }
+      .contenido-usuario-principal .conten-info-person .empezar .textbutton {
+        margin-left: 20px; }
+      .contenido-usuario-principal .conten-info-person .empezar .iconbutton {
+        margin-right: 10px;
+        margin-top: 10px; }
+      .contenido-usuario-principal .conten-info-person .empezar img {
+        width: 34px;
+        height: 34px;
+        transform: rotate(45deg); }
+      .contenido-usuario-principal .conten-info-person .empezar:active {
+        background: transparent;
+        border: 5px solid #E8E8E8;
+        color: #E8E8E8; }
+  .contenido-usuario-principal .conten-objetivo {
+    width: 16.125rem;
+    height: 26.3125rem;
+    background-color: #212121;
+    border-radius: 50px;
+    filter: drop-shadow(0px 10px 10px #000000) opacity(2); }
+    .contenido-usuario-principal .conten-objetivo .icon-objetivo {
+      background-color: #E8E8E8;
+      border-radius: 100px;
+      width: 78px;
+      height: 78px;
+      margin-top: 50px;
+      margin-left: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .contenido-usuario-principal .conten-objetivo .h2-objetivo-finan {
+      color: #E8E8E8;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 50px; }
+    .contenido-usuario-principal .conten-objetivo .empezar2 {
+      width: 190px;
+      height: 50px;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      border-radius: 100px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #E8E8E8;
+      font-weight: bold;
+      margin-left: 30px;
+      margin-top: 70px;
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      border: none; }
+      .contenido-usuario-principal .conten-objetivo .empezar2 .textbutton2 {
+        margin-left: 20px; }
+      .contenido-usuario-principal .conten-objetivo .empezar2 .iconbutton2 {
+        margin-right: 10px;
+        margin-top: 10px; }
+      .contenido-usuario-principal .conten-objetivo .empezar2 img {
+        width: 34px;
+        height: 34px;
+        transform: rotate(45deg); }
+      .contenido-usuario-principal .conten-objetivo .empezar2:active {
+        background: transparent;
+        border: 5px solid #E8E8E8;
+        color: #E8E8E8; }
+  .contenido-usuario-principal .conten-herramienta {
+    width: 16.125rem;
+    height: 26.3125rem;
+    background-color: #212121;
+    border-radius: 50px;
+    filter: drop-shadow(0px 10px 10px #000000) opacity(2); }
+    .contenido-usuario-principal .conten-herramienta .icon-herramienta {
+      background-color: #E8E8E8;
+      border-radius: 100px;
+      width: 78px;
+      height: 78px;
+      margin-top: 50px;
+      margin-left: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .contenido-usuario-principal .conten-herramienta .h2-herramientas-inter {
+      color: #E8E8E8;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 50px; }
+    .contenido-usuario-principal .conten-herramienta .empezar3 {
+      width: 190px;
+      height: 50px;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      border-radius: 100px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #E8E8E8;
+      font-weight: bold;
+      margin-left: 30px;
+      margin-top: 70px;
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      border: none; }
+      .contenido-usuario-principal .conten-herramienta .empezar3 .textbutton3 {
+        margin-left: 20px; }
+      .contenido-usuario-principal .conten-herramienta .empezar3 .iconbutton3 {
+        margin-right: 10px;
+        margin-top: 10px; }
+      .contenido-usuario-principal .conten-herramienta .empezar3 img {
+        width: 34px;
+        height: 34px;
+        transform: rotate(45deg); }
+      .contenido-usuario-principal .conten-herramienta .empezar3:active {
+        background: transparent;
+        border: 5px solid #E8E8E8;
+        color: #E8E8E8; }
+  .contenido-usuario-principal .conten-soporte {
+    width: 16.125rem;
+    height: 26.3125rem;
+    background-color: #212121;
+    border-radius: 50px;
+    filter: drop-shadow(0px 10px 10px #000000) opacity(2); }
+    .contenido-usuario-principal .conten-soporte .icon-soporte {
+      background-color: #E8E8E8;
+      border-radius: 100px;
+      width: 78px;
+      height: 78px;
+      margin-top: 50px;
+      margin-left: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .contenido-usuario-principal .conten-soporte .h2-soporte-asist {
+      color: #E8E8E8;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 50px; }
+    .contenido-usuario-principal .conten-soporte .empezar4 {
+      width: 190px;
+      height: 50px;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      border-radius: 100px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #E8E8E8;
+      font-weight: bold;
+      margin-left: 30px;
+      margin-top: 70px;
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      border: none; }
+      .contenido-usuario-principal .conten-soporte .empezar4 .textbutton4 {
+        margin-left: 20px; }
+      .contenido-usuario-principal .conten-soporte .empezar4 .iconbutton4 {
+        margin-right: 10px;
+        margin-top: 10px; }
+      .contenido-usuario-principal .conten-soporte .empezar4 img {
+        width: 34px;
+        height: 34px;
+        transform: rotate(45deg); }
+      .contenido-usuario-principal .conten-soporte .empezar4:active {
+        background: transparent;
+        border: 5px solid #E8E8E8;
+        color: #E8E8E8; }
+
+.title-segundo .h2-index2 {
+  letter-spacing: 9px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #E8E8E8;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 170px; }
+
+.title-segundo .financiera {
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.title-segundo .h3-index2 {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+  color: #E8E8E8;
+  font-size: 18px;
+  font-weight: 31.25rem;
+  text-align: center;
+  margin-top: 50px; }
+
+.title-segundo .p-index2 {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+  color: #E8E8E8;
+  font-size: 18px;
+  font-weight: 18.75rem;
+  text-align: center;
+  margin-top: 30px; }
+
+.title-segundo .p-index2-mobile {
+  display: none; }
+
+.title-segundo img {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
+.title-segundo .buttom-index2 {
+  width: 363px;
+  height: 87px;
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 36px;
+  color: #E8E8E8;
+  font-weight: bold;
+  letter-spacing: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 530px;
+  margin-top: -45px;
+  position: absolute;
+  border: none;
+  border: 10px solid #202020; }
+  .title-segundo .buttom-index2:active {
+    background: #202020;
+    border: 5px solid #E8E8E8;
+    color: #E8E8E8; }
+
+.image-educacionfinanciera {
+  height: 957px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 100px; }
+
+.title-educacion .h1-educacionfinanciera {
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 1.875rem;
+  margin-top: -750px;
+  color: #E8E8E8;
+  text-transform: uppercase;
+  letter-spacing: 9px; }
+
+.title-educacion .h1-financiera2 {
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.title-educacion .h2-educacionfinanciera {
+  font-size: 18px;
+  margin-left: 6.25rem;
+  margin-top: .625rem;
+  color: #E8E8E8; }
+
+.title-educacion .p-educacionfinanciera {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+  color: #E8E8E8;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 870px;
+  margin-top: 10px; }
+
+.contenedor-informativo {
+  background: #E8E8E8;
+  width: 100%;
+  height: 3421px;
+  border-radius: 100px;
+  box-shadow: inset 0px 10px 10px #BEBEBE;
+  margin-top: 750px;
+  display: grid;
+  grid-template-columns: 670px 670px;
+  grid-template-rows: 220px 420px 420px 420px 420px 420px 420px 420px;
+  grid-template-areas: "introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7";
+  grid-row-gap: 30px;
+  grid-column-gap: none;
+  justify-content: center; }
+  .contenedor-informativo .p-educacionfinanciera2 {
+    font-family: "radiocanada";
+    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+    color: #BEBEBE;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 100px;
+    text-align: center;
+    grid-area: introedu; }
+  .contenedor-informativo .p-educacionmarcado {
+    font-weight: bold; }
+  .contenedor-informativo .seccion1 {
+    grid-area: seccion1; }
+    .contenedor-informativo .seccion1 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion1 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo1 {
+    grid-area: contenido1; }
+    .contenedor-informativo .contenidotitulo1 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo1 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo1 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo1 .imagen1 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo1 .imagen2 {
+      margin-top: -10px; }
+    .contenedor-informativo .contenidotitulo1 .imagen3 {
+      margin-top: -50px; }
+  .contenedor-informativo .seccion2 {
+    grid-area: seccion2; }
+    .contenedor-informativo .seccion2 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion2 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo2 {
+    grid-area: contenido2; }
+    .contenedor-informativo .contenidotitulo2 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo2 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo2 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo2 .imagen12 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo2 .imagen22 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo2 .imagen32 {
+      margin-top: -70px; }
+  .contenedor-informativo .seccion3 {
+    grid-area: seccion3; }
+    .contenedor-informativo .seccion3 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion3 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo3 {
+    grid-area: contenido3; }
+    .contenedor-informativo .contenidotitulo3 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo3 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo3 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo3 .imagen13 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo3 .imagen23 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo3 .imagen33 {
+      margin-top: -50px; }
+  .contenedor-informativo .seccion4 {
+    grid-area: seccion4; }
+    .contenedor-informativo .seccion4 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion4 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo4 {
+    grid-area: contenido4; }
+    .contenedor-informativo .contenidotitulo4 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo4 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo4 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo4 .imagen14 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo4 .imagen24 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo4 .imagen34 {
+      margin-top: -50px; }
+  .contenedor-informativo .seccion5 {
+    grid-area: seccion5; }
+    .contenedor-informativo .seccion5 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion5 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo5 {
+    grid-area: contenido5; }
+    .contenedor-informativo .contenidotitulo5 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo5 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo5 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo5 .imagen15 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo5 .imagen25 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo5 .imagen35 {
+      margin-top: -50px; }
+  .contenedor-informativo .seccion6 {
+    grid-area: seccion6; }
+    .contenedor-informativo .seccion6 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion6 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo6 {
+    grid-area: contenido6; }
+    .contenedor-informativo .contenidotitulo6 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo6 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo6 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo6 .imagen16 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo6 .imagen26 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo6 .imagen36 {
+      margin-top: -50px; }
+  .contenedor-informativo .seccion7 {
+    grid-area: seccion7; }
+    .contenedor-informativo .seccion7 h2 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .contenedor-informativo .seccion7 p {
+      font-size: 30px;
+      font-weight: 500; }
+  .contenedor-informativo .contenidotitulo7 {
+    grid-area: contenido7; }
+    .contenedor-informativo .contenidotitulo7 h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo7 .contenidotitulo7 ul {
+      flex-direction: column;
+      display: flex;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo7 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 620px; }
+    .contenedor-informativo .contenidotitulo7 .imagen17 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo7 .imagen27 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo7 .imagen37 {
+      margin-top: -50px; }
+
+.title-2-educacion .h2-preguntas {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #E8E8E8;
+  margin-top: 150px; }
+
+.title-2-educacion .frecuentes {
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.title-2-educacion .FAQs {
+  font-size: 24px;
+  font-weight: 300;
+  color: #E8E8E8;
+  text-align: center;
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf); }
+
+.title-2-educacion .pregunta-frecuente {
+  font-size: 24px;
+  font-weight: 300;
+  color: #E8E8E8;
+  text-align: center;
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf); }
+  .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -550px; }
+  .title-2-educacion .pregunta-frecuente img {
+    margin-top: 30px;
+    margin-right: -550px; }
+
+.imag-contacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  .imag-contacto img {
+    width: 750px; }
+
+.title-1-contacto .h1-contacto {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #3c3df7 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  margin-top: -270px; }
+
+.title-1-contacto .h2-contacto {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+  color: #E8E8E8;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 9px;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 30px; }
+
+.title-1-contacto .p-contacto {
+  font-family: "radiocanada";
+  src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+  color: #E8E8E8;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: 300; }
+  .title-1-contacto .p-contacto .contacto-nosotros {
+    font-size: 26px;
+    font-weight: bold;
+    background: #00ffda;
+    background: linear-gradient(90deg, #00ffda 0%, #3c3df7 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.contenedor-formulario {
+  width: 1440px;
+  height: 694px;
+  background: #E8E8E8;
+  border-radius: 100px 100px 0px 0px;
+  box-shadow: inset 0px 10px 10px #BEBEBE;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 21.6875rem 21.6875rem;
+  grid-template-areas: "envianos formulario" "descripcion boton-formulario";
+  grid-row-gap: none;
+  grid-column-gap: 250px;
+  justify-content: center; }
+  .contenedor-formulario .h2-contacto-envianos {
+    color: #202020;
+    font-size: 45px;
+    text-transform: uppercase;
+    grid-area: envianos;
+    margin-top: 70px;
+    margin-left: 70px; }
+  .contenedor-formulario .p-contacto2 {
+    grid-area: descripcion;
+    font-family: "radiocanada";
+    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+    color: #202020;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: -70px;
+    margin-left: 70px; }
+    .contenedor-formulario .p-contacto2 .contacto-contigo {
+      font-weight: bold; }
+  .contenedor-formulario .p-contacto2-mobile {
+    display: none; }
+    .contenedor-formulario .p-contacto2-mobile .contacto-contigo {
+      font-weight: bold; }
+  .contenedor-formulario .formulario {
+    grid-area: formulario;
+    font-family: "radiocanadabig";
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+    text-decoration: underline;
+    font-size: 28px;
+    font-weight: 400;
+    width: 400px;
+    margin-top: 50px; }
+    .contenedor-formulario .formulario .input-form input {
+      position: absolute;
+      margin-top: 50px;
+      margin-left: -240px;
+      border: none;
+      background: #BEBEBE;
+      border-radius: 100px;
+      height: 58px;
+      width: 500px; }
+    .contenedor-formulario .formulario .input-form2 {
+      margin-top: 80px; }
+      .contenedor-formulario .formulario .input-form2 input {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -246px;
+        border: none;
+        background: #BEBEBE;
+        border-radius: 100px;
+        height: 58px;
+        width: 500px; }
+    .contenedor-formulario .formulario .input-form3 {
+      margin-top: 80px; }
+      .contenedor-formulario .formulario .input-form3 input {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -126px;
+        border: none;
+        background: #BEBEBE;
+        border-radius: 50px;
+        height: 179px;
+        width: 500px; }
+  .contenedor-formulario .botton-formulario {
+    grid-area: boton-formulario; }
+    .contenedor-formulario .botton-formulario .bonton-input {
+      width: 200px;
+      height: 50px;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      border-radius: 100px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #E8E8E8;
+      font-weight: bold;
+      margin-left: 100px;
+      letter-spacing: 3px;
+      border: none;
+      margin-top: 250px; }
+      .contenedor-formulario .botton-formulario .bonton-input:active {
+        background: transparent;
+        border: 5px solid #202020;
+        color: #202020; }
+
+.sector-contactanos {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 400px 400px;
+  grid-template-areas: "h1 h1" "card1 card2";
+  grid-row-gap: 50px;
+  grid-column-gap: none;
+  justify-content: center;
+  margin-top: 120px; }
+  .sector-contactanos .h2-contacto2 {
+    grid-area: h1;
+    text-transform: uppercase;
+    color: #E8E8E8;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px; }
+    .sector-contactanos .h2-contacto2 .Directamente {
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .sector-contactanos .correo-electronico-contenedor {
+    grid-area: card1;
+    background: #E8E8E8;
+    border-radius: 50px;
+    width: 257px;
+    height: 246px;
+    box-shadow: inset 0px 10px 10px #BEBEBE;
+    margin-left: 160px;
+    margin-top: 50px; }
+    .sector-contactanos .correo-electronico-contenedor img {
+      margin-left: 90px;
+      margin-top: 20px; }
+    .sector-contactanos .correo-electronico-contenedor .h2-card1contacto {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 20px; }
+      .sector-contactanos .correo-electronico-contenedor .h2-card1contacto .electronico-card1 {
+        background: #00ffda;
+        background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    .sector-contactanos .correo-electronico-contenedor .p {
+      text-align: center;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      font-size: 15px;
+      font-weight: 400px;
+      margin-top: 10px; }
+  .sector-contactanos .telefono-contenedor {
+    grid-area: card2;
+    background: #E8E8E8;
+    border-radius: 50px;
+    width: 257px;
+    height: 246px;
+    box-shadow: inset 0px 10px 10px #BEBEBE;
+    margin-left: 80px;
+    margin-top: 50px; }
+    .sector-contactanos .telefono-contenedor img {
+      margin-left: 90px;
+      margin-top: 20px; }
+    .sector-contactanos .telefono-contenedor .h2 {
+      text-align: center;
+      background: #00ffda;
+      background: linear-gradient(90deg, #00ffda 0%, #3c3df7 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 10px;
+      font-size: 20px;
+      text-transform: uppercase; }
+    .sector-contactanos .telefono-contenedor .p {
+      text-align: center;
+      font-family: "radiocanada";
+      src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 50px; }
+
+.img-nosotros {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  margin-right: 100px; }
+
 footer {
   display: flex;
   justify-content: space-between;
