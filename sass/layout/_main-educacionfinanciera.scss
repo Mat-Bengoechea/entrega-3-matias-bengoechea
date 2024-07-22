@@ -12,7 +12,7 @@
         margin-left: 1.875rem;
         margin-top: -750px;
         color: map-get($colores , color2 );
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         letter-spacing: 9px;
     }
     .h1-financiera2{
@@ -58,7 +58,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -103,7 +103,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -149,7 +149,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -196,7 +196,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -243,7 +243,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -290,7 +290,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -337,7 +337,7 @@ justify-content: center;
     h2{
         font-size: 50px;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
     }
     p{
         font-size: 30px;
@@ -384,7 +384,7 @@ justify-content: center;
     .h2-preguntas{
         text-align: center;
         font-weight: bold;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         font-size: 60px;
         color: map-get($colores , color2 );
         margin-top: 150px;

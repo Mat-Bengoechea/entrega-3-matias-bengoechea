@@ -1,0 +1,274 @@
+.h1-perfil{
+    text-transform: $texto-transfor;
+    color: map-get($colores , color2 );
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 100px;
+    position: absolute;
+    .cuenta-perfil{
+    @include color-degrade-90;
+    }
+}
+.contenedor-derecho-perfil{
+    width: 357px;
+    height: 1282px;
+    border-radius: 100px;
+background: map-get($colores , color2 );
+margin-top: 100px;
+margin-left: 50px;
+@include grid(357px,208px 126px 184px 184px 184px 184px 194px,"perfil-usu" "menu-derecho" "info-perso" "objetivo-fina" "herram-inter" "soport-asis" "cerrar-sesion", none,none);
+.clums-perfil img{ 
+    margin-top: -120px;
+    margin-left: 5px;
+}
+.img-perfil img{
+    grid-area: perfil-usu;
+    margin-top: -450px;
+    margin-left: 30px;
+    position: absolute;
+    }
+    .h2-nombreuser{
+        grid-area: perfil-usu;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 130px;
+        margin-top: 90px;
+        color: map-get($colores , color1 );
+    }
+    .p-correo{
+        grid-area: perfil-usu;
+        font-weight: 300;
+        font-size: 14px;
+        margin-left: 145px;
+        margin-top: 120px;
+        color: map-get($colores , color1 );
+    }
+    .h2-menu{
+        grid-area: menu-derecho;
+        text-transform: $texto-transfor;
+        font-weight: bold;
+        font-size: 40px;
+    color: map-get($colores , color3 );
+    text-align: center;
+    margin-top: 30px;
+    }
+    .menu-dere-1{
+        grid-area: info-perso;
+        list-style: none;
+        text-align: center;
+        margin-top: -275px;
+        margin-left: 50px;
+        font-size: 21px;
+        @include color-degrade-90;
+        img{
+            height: 37px;
+            width: 37px;
+            margin-left: -175px;
+            position: absolute;
+            margin-top: -7px;
+        }
+    }
+    .menu-dere-2{
+        grid-area: objetivo-fina;
+        list-style: none;
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 40px;
+        font-size: 21px;
+        color: map-get($colores , color1 );
+        img{
+            height: 37px;
+            width: 37px;
+            position: absolute;
+            margin-left: -170px;
+        }
+    }
+    .menu-dere-3{
+        grid-area: herram-inter;
+        list-style: none;
+        text-align: center;
+        margin-top: 130px;
+        margin-left: 65px;
+        font-size: 21px;
+        color: map-get($colores , color3 );
+        img{
+            height: 37px;
+            width: 37px;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -150px;
+        }
+    }
+    .menu-dere-4{
+        grid-area: soport-asis;
+        list-style: none;
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 50px;
+        font-size: 21px;
+        color: map-get($colores , color1 );
+        img{
+            height: 37px;
+            width: 37px;
+            margin-left: -170px;
+            position: absolute;
+        }
+    }
+    .button-cerrar{
+        grid-area: cerrar-sesion;
+        width: 211px;
+        height: 58px;
+        background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 20px;
+        color:map-get($colores , color2 );
+        font-weight: bold;
+        margin-left: 70px;
+        border: none;
+        margin-top: 280px;
+        &:active{
+            background: transparent;
+            border: 5px solid map-get($colores , color1 );
+                color: map-get($colores , color1 );
+            }
+    }
+}
+.contenedor-izq-perfil{
+    width: 932px;
+    height: 1078px;
+    border-radius: 100px;
+background: map-get($colores , color2 );
+margin-top: -1070px;
+margin-left: 440px;
+@include grid(166px 336px 426px,290px 355px 316px,"menu-d perfil-izq perfil-izq" "menu-d datos-person datos-person2" "menu-d direccion direccion2",none,none);
+.menu-contenedor2-derecho{
+    grid-area: menu-d;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    li{
+        list-style: none;
+        margin-top: 50px;
+        }
+        .gris-menu{
+            color: map-get($colores , color3 );
+        }
+        .eliminar-cuenta{
+            color: #F15454;
+        }    
+}
+.perfil-izq{
+    grid-area: perfil-izq;
+}
+.datos-person{
+    grid-area: datos-person;
+}
+
+.datos-person2{
+    grid-area: datos-person2;
+}
+
+.direccion{
+    grid-area: direccion;
+}
+
+.direccion2{
+    grid-area: direccion2;
+}
+.h2-perfil2{
+    margin-left: 25px;
+    margin-top: 42px;
+    text-transform: $texto-transfor;
+    font-size: 20px;
+    font-weight: bold;
+color: map-get($colores , color1 );
+}
+.img-perfil2{
+    margin-left: 25px;
+    margin-top: 119px;
+    }
+    .h2-nombre-apellido{
+        margin-left: 201px;
+        margin-top: 168px;
+        font-size: 20px;
+        font-weight: bold;
+        color: map-get($colores , color1 );
+        }
+        .p-direccion{
+            margin-left: 185px;
+            margin-top: 210px;
+            color: map-get($colores , color1 );
+            font-weight: 300;
+            font-size: 20px;
+            }
+            .editor{
+                margin-left: 640px;
+                margin-top: 177px;
+                img{
+                    position: absolute;
+                    margin-top: -23px;
+                    margin-left: 60px;
+                }
+                }
+                .h2-datos-person{
+                    margin-left: 25px;
+                    margin-top: 42px;
+                    text-transform: $texto-transfor;
+                    font-size: 20px;
+                    font-weight: bold;
+                color: map-get($colores , color1 );
+                }
+                .datos-lista-perfil{
+                    margin-top: 30px;
+                    list-style: none;
+                    margin-left: 35px;
+                    font-size: 16px;
+                    color: map-get($colores , color1 );
+                    li{
+                        margin-top: 90px;
+                    }
+                    .titulos-datos-perfil{
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                    }
+                    .editor2{
+                        margin-left: 300px;
+                        margin-top: 44px;
+                        img{
+                            position: absolute;
+                            margin-top: -23px;
+                            margin-left: 60px;
+                        }
+                        }
+                        .h2-direccion{
+                            margin-left: 25px;
+                            margin-top: 42px;
+                            text-transform: $texto-transfor;
+                            font-size: 20px;
+                            font-weight: bold;
+                        color: map-get($colores , color1 );
+                        }
+                        .datos-lista-direccion{
+                            margin-top: 30px;
+                            list-style: none;
+                            margin-left: 35px;
+                            font-size: 16px;
+                            color: map-get($colores , color1 );
+                            li{
+                                margin-top: 90px;
+                            }
+                        }
+                        .editor3{
+                            margin-left: 300px;
+                        margin-top: 44px;
+                        img{
+                            position: absolute;
+                            margin-top: -23px;
+                            margin-left: 60px;
+                        }
+                        }
+}

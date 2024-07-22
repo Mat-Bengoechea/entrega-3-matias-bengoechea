@@ -13,7 +13,7 @@
         font-size:60px;
         text-align: center;
         @include color-degrade-90;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         letter-spacing: 9px;
         margin-top: -270px;
     }
@@ -53,7 +53,7 @@
     .h2-contacto-envianos{
         color: map-get($colores , color1 );
         font-size: 45px;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         grid-area: envianos;
         margin-top: 70px;
         margin-left: 70px;
@@ -77,7 +77,7 @@
         }
         .formulario{
             grid-area: formulario;
-            text-decoration: underline;
+            text-decoration: $texto-transfor;
             font-size: 28px;
             font-weight: 400;
             width: 400px;
@@ -151,7 +151,7 @@
     margin-top: 120px;
     .h2-contacto2{
         grid-area: h1;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         color: map-get($colores , color2 );
         font-size: 60px;
         font-weight: bold;
@@ -207,7 +207,7 @@
             @include color-degrade-90;
             margin-top: 10px;
             font-size: 20px;
-            text-transform: uppercase;
+            text-transform: $texto-transfor;
         }
         .p{
             text-align: center;

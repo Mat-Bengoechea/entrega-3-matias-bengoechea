@@ -1,15 +1,15 @@
-/**utilites**/
+
 @import "./utilities/variables";
 @import "./utilities/maps";
 @import "./utilities/mixins";
 
-/**bases**/
+
 @import "./base/resets";
 
 @import "./base/fonts";
 
 
-/**layout**/
+
 @import "./layout/header";
 
 @import "./layout/main-index";
@@ -24,4 +24,6 @@
 
 @import "./layout/footer";
 
-/**componentes**/
+
+
+@import "./mediaq/mediaq"

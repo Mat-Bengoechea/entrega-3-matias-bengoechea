@@ -30,6 +30,14 @@
     -webkit-text-fill-color: transparent;
 }
 
+@mixin color-degrade-30{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @mixin flex{
     display: flex;
     justify-content: space-between;

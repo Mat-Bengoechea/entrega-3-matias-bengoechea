@@ -9,22 +9,277 @@
         color: map-get($colores , color2 );
         font-size: 55px;
         margin-top: -790px;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         letter-spacing: 9px;
     }
     .h2{
-        background: rgb(0,255,218);
-        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 30%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include color-degrade-30;
         font-size: 40px;
-        text-transform: uppercase;
+        text-transform: $texto-transfor;
         letter-spacing: 9px;
     }
     img{
         margin-top: 50px;
         margin-left: 150px;
         height: 150px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+background: map-get($colores , color2 );
+position: absolute;
+margin-top: 110px;
+height: 655px;
+border-radius: 100px 100px 0px 0px;
+box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+@include grid(670px 670px,100px 200px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
+justify-content: center;
+.frase-nosotros{
+    grid-area: introduccion;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    font-style: italic;
+    color: map-get($colores , color1 );
+    .nombre-actor{
+        font-weight: 37.5rem;
+    }
+}
+.h2-1nosotros{
+    grid-area: titulo-somo;
+    font-size: 40px;
+    color: map-get($colores , color1 );
+    margin-top: 50px;
+}
+.h2-2nosotros{
+    grid-area: titulo-nuestro;
+    color: map-get($colores , color1 );
+    font-size: 40px;
+}
+.parrafo-somo{
+    grid-area: parrafo-somo;
+    color: map-get($colores , color1 );
+    margin-top: 50px;
+    font-size: 20px;
+font-weight: 300px;
+letter-spacing: -0.5px;
+}
+.parrafo-nuestro{
+    grid-area: parrafo-nuestro;
+    color: map-get($colores , color1 );
+    margin-top: 15px;
+    font-size: 20px;
+font-weight: 300px;
+.queremos-nosotros{
+    font-weight: bold;
+    font-size: 21px;
+}
+}
+}
+.card1-nosotros{
+    position: absolute;
+    background: $color-card;
+    border-radius: 100px;
+    height: 626px;
+    width: 630px;
+    margin-top: 655px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
+    .h2-card1{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 35px;
+        text-transform: $texto-transfor;
+        color: map-get($colores , color2 );
+        .mision{
+            letter-spacing: 9px;
+            @include color-degrade-90;
+            font-size: 60px;
+        }
+    }
+    .retangulo-nosotros{
+        height: 4px;
+        background-color: map-get($colores , color3 );
+        width: 250px;
+        margin-left: 185px;
+        margin-top: -10px;
+        background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 95%);
+        
+    }
+    .descr-card1{
+        font-size: 20px;
+        font-weight: 300;
+        color: map-get($colores , color2 );
+    text-align: center;
+    margin-top: 70px;
+    .estabilidad-finan{
+        font-weight: bold;
+    }    
+    }
+}
+.card2-nosotros{
+    position: absolute;
+    background: $color-card;
+    border-radius: 100px;
+    height: 626px;
+    width: 630px;
+    margin-top: 655px;
+    margin-left: 750px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 10px 10px map-get($colores , color3 )) opacity(2);
+    .h2-card2{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 35px;
+        text-transform: $texto-transfor;
+        color: map-get($colores , color2 );
+        .enfoque{
+            @include color-degrade-90;
+            font-size: 60px;
+        }
+    }
+    .descr-card2{
+        font-size: 20px;
+        font-weight: 300px;
+        color: map-get($colores , color2 );
+    text-align: center;
+    margin-top: 70px;
+    .necesidades{
+        font-weight: bold;
+    }
+    .tiene-algo{
+        font-weight: bold;
+        text-decoration: $texto-transfor;
+    }
+    }
+}
+.contenedor1-inferior{
+    background: map-get($colores , color2 );
+    margin-top: 1170px;
+    border-radius: 0px 0px 100px 100px;
+    box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+    height: 966px;
+    @include grid(544px 776px,330px 164px 164px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",25px,none);
+    justify-content: center;
+    .h2-ofrecemos{
+        grid-area: titulo-q;
+        margin-top: 170px;
+        font-size: 40px;
+        text-transform: $texto-transfor;
+    }
+    .p-ofrecemos{
+        grid-area: texto-prin;
+        font-weight: 300;
+        font-size: 24px;
+        margin-top: 200px;
+        .viaje-financ{
+            font-weight: bold;
+        }        
+    }
+    .lista-nosotros1{
+        grid-area: lista-p1;
+        font-size: 24px;
+        font-weight: 300;
+        .titulo-lista1{
+            font-weight: bold;
+        }
+    }
+    .lista-nosotros2{
+        grid-area: lista-s2;
+        font-size: 24px;
+        font-weight: 300;
+        margin-left: 200px;
+        .titulo-lista2{
+            font-weight: bold;
+        }        
+    }
+    .lista-nosotros3{
+        grid-area: lista-t3;
+        font-size: 24px;
+        font-weight: 300;
+        .titulo-lista3{
+            font-weight: bold;
+        }
+    }
+    .parrafos-finales{
+        grid-area: texto-fin;
+        text-align: center;
+        .p-ofrecemos2{
+            font-size: 24px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+}
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 60px;
+        letter-spacing: 9px;
+        color: map-get($colores , color2 );
+        text-align: center;
+        text-transform: $texto-transfor;
+        margin-top: 150px;
+        .comunidad{
+        @include color-degrade-100;
+        }
+    }
+    .p-nosotros2{
+        text-align: center;
+        color: map-get($colores , color2 );
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 50px;
+        .comienza-constr{
+            font-weight: bold;
+        }
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .buttom-nosotros2{
+        width: 363px;
+        height: 87px;
+        background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 36px;
+        color:map-get($colores , color2 );
+        font-weight: bold;
+        letter-spacing: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 530px;
+        margin-top: -45px;
+        position: absolute;
+        border: none;
+        border: 10px solid map-get($colores , color1 );
+        &:active{
+            background: map-get($colores , color1 );
+            border: 5px solid map-get($colores , color2 );
+                color: map-get($colores , color2 );
+        }
     }
 }
