@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #202020; }
+  background-color: #202020;
+  overflow-x: hidden; }
 
 @font-face {
   font-family: "radiocanada";
