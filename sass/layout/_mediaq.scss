@@ -1,6 +1,15 @@
+@media(min-width:1440px){
+    .nav-menu-hamburgueza{
+        display: none;
+    }
+}
+
 @media(max-width:1024px){
     header{
         padding-right: 25px;
+    }
+    .nav-menu-hamburgueza{
+        display: none;
     }
     
     .logo img{
@@ -610,7 +619,9 @@ margin-left: 90px;
     header{
         padding-right: 15px;
     }
-    
+    .nav-menu-hamburgueza{
+        display: none;
+    }
     .logo img{
         height: 25px;
         margin: 25px;

@@ -76,8 +76,6 @@ header {
       background: #00ffda;
       background: linear-gradient(90deg, #00ffda 0%, #3c3df7 100%);
       color: #E8E8E8; }
-  header .nav-menu-hamburgueza {
-    display: none; }
 
 .imagen-indexarriba {
   height: 81.25rem;
@@ -1622,9 +1620,15 @@ footer {
   footer .redes-sociales li:last-child {
     margin-right: 0; }
 
+@media (min-width: 1440px) {
+  .nav-menu-hamburgueza {
+    display: none; } }
+
 @media (max-width: 1024px) {
   header {
     padding-right: 25px; }
+  .nav-menu-hamburgueza {
+    display: none; }
   .logo img {
     height: 20px;
     margin: 25px; }
@@ -2020,6 +2024,8 @@ footer {
 @media (max-width: 768px) {
   header {
     padding-right: 15px; }
+  .nav-menu-hamburgueza {
+    display: none; }
   .logo img {
     height: 25px;
     margin: 25px; }
