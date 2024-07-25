@@ -96,7 +96,7 @@
     }
     .descripcion{
         grid-area: descripcion;
-        font-size: 19.7px;
+        font-size: 18px;
         color: map-get($colores , color2 );
         font-weight: 25rem;
     }
@@ -117,7 +117,7 @@
     background-color: map-get($colores , color2 );
     height: 42.375rem;
     margin-top: 15.625rem;
-    box-shadow: inset 0px 10px 10px #B0B0B0;
+    box-shadow: inset 0px 10px 10px map-get($colores , color3 );
     .h2-personaliza{
         color: map-get($colores , color1 );
         font-size: 60px;
@@ -136,45 +136,43 @@
         font-size: 20px;
         font-weight: 6.25rem;
         display: flex;
-        justify-content: right;
-        margin-right: 2.5rem;
+        flex-direction: column;
+        margin-left: 46.25rem;
         margin-top: -20.3125rem;
-    }
-    span.line-break {
-        display: block;
-        margin-bottom: 10px;
-    } 
-    .control-futuro{
-        font-size: 24px;
-        font-weight: bold;
-    }
-    
-    .you{
-        font-family:"montserrat alter" ;
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 24px;
-        font-weight: bold;
-    }
-    
-    .financ{
-        font-family:"montserrat" ;
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 24px;
-        font-weight: 56.25rem;
+        span.line-break {
+            display: block;
+            margin-bottom: 10px;
+        } 
+        .control-futuro{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .you{
+            font-family:"montserrat alter" ;
+            src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .financ{
+            font-family:"montserrat" ;
+            src: url(../assets/fonts/Montserrat-Black.ttf);
+            font-size: 24px;
+            font-weight: 56.25rem;
+        }
     }
 }
 
 .contenido-usuario-principal{
-    display: grid;
-    grid-template-columns: 392px 258px 258px 258px;
-    grid-template-rows: none;
+    @include grid(392px 258px 258px 258px,none,none,none,none);
     margin-top: -12.5rem;
     grid-gap: 3.1875rem;
     justify-content: center;
     .conten-info-person{
         width: 24.5rem;
         height: 32.875rem;
-        background-color: #2F2F2F;
+        background-color: $color-card;
         border-radius: 50px;
         filter: drop-shadow(0px 10px 10px #000000) opacity(2);
         .icon-personal{
@@ -185,6 +183,9 @@
             margin-top: 3.125rem;
             margin-left: 1.25rem;
             @include flex-p(flex,center);
+            img{
+                margin-left: .75rem;
+            }
         }
         .h2-info-perfil{
             color: map-get($colores , color2 );
@@ -455,8 +456,7 @@
         display: none;
     }
     img{
-        display: flex;
-        justify-content: center;
+        margin-left: 60px;
         margin-top: 50px;
     }
     .buttom-index2{
@@ -473,7 +473,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 530px;
+        margin-left: 550px;
         margin-top: -45px;
         position: absolute;
         border: none;

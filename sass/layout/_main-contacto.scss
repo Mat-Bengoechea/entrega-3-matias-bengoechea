@@ -120,30 +120,30 @@
                     width: 500px;
                 }
             }
+            .botton-formulario{
+                grid-area: boton-formulario;
+                .bonton-input{
+                    width: 200px;
+                    height: 50px;
+                    background: rgb(0,255,218);
+                    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+                    border-radius: 100px;
+                    cursor: pointer;
+                    font-size: 24px;
+                    color:map-get($colores , color2 );
+                    font-weight: bold;
+                    margin-left: 100px;
+                    letter-spacing: 3px;
+                    border: none;
+                    margin-top: 250px;
+                    &:active{
+                        background: transparent;
+                        border: 5px solid #202020;
+                            color: #202020;
+                        }
+                }
+            }          
         }  
-        .botton-formulario{
-            grid-area: boton-formulario;
-            .bonton-input{
-                width: 200px;
-                height: 50px;
-                background: rgb(0,255,218);
-                background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
-                border-radius: 100px;
-                cursor: pointer;
-                font-size: 24px;
-                color:map-get($colores , color2 );
-                font-weight: bold;
-                margin-left: 100px;
-                letter-spacing: 3px;
-                border: none;
-                margin-top: 250px;
-                &:active{
-                    background: transparent;
-                    border: 5px solid #202020;
-                        color: #202020;
-                    }
-            }
-        }      
 }
 .sector-contactanos{
     @include grid(500px 500px,400px 400px,"h1 h1" "card1 card2",50px,none);
@@ -182,11 +182,11 @@
                 @include color-degrade-100;
             }
         }
-        .p{
-            text-align: center;
+        .p-card1contacto{
             font-size: 15px;
             font-weight: 400px;
             margin-top: 10px;
+            text-align: center;
         }
     }
     .telefono-contenedor{
@@ -202,14 +202,14 @@
             margin-left: 90px;
             margin-top: 20px;
         }
-        .h2{
+        .h2-card2contacto{
             text-align: center;
             @include color-degrade-90;
             margin-top: 10px;
             font-size: 20px;
             text-transform: $texto-transfor;
         }
-        .p{
+        .p-card2contacto{
             text-align: center;
             font-size: 15px;
             font-weight: 400;
