@@ -18,16 +18,15 @@ background: map-get($colores , color2 );
 margin-top: 100px;
 margin-left: 50px;
 @include grid(357px,208px 126px 184px 184px 184px 184px 194px,"perfil-usu" "menu-derecho" "info-perso" "objetivo-fina" "herram-inter" "soport-asis" "cerrar-sesion", none,none);
-.clums-perfil img{ 
+.clums-perfil{ 
     margin-top: -120px;
     margin-left: 5px;
 }
-.img-perfil img{
+.img-perfil{
     grid-area: perfil-usu;
-    margin-top: -450px;
+    margin-top: 70px;
     margin-left: 30px;
-    position: absolute;
-    }
+}
     .h2-nombreuser{
         grid-area: perfil-usu;
         font-size: 16px;
@@ -40,7 +39,7 @@ margin-left: 50px;
         grid-area: perfil-usu;
         font-weight: 300;
         font-size: 14px;
-        margin-left: 145px;
+        margin-left: 130px;
         margin-top: 120px;
         color: map-get($colores , color1 );
     }
@@ -51,13 +50,13 @@ margin-left: 50px;
         font-size: 40px;
     color: map-get($colores , color3 );
     text-align: center;
-    margin-top: 30px;
+    margin-top: 45px;
     }
     .menu-dere-1{
         grid-area: info-perso;
         list-style: none;
         text-align: center;
-        margin-top: -275px;
+        margin-top: -100px;
         margin-left: 50px;
         font-size: 21px;
         @include color-degrade-90;
@@ -128,7 +127,7 @@ margin-left: 50px;
         font-weight: bold;
         margin-left: 70px;
         border: none;
-        margin-top: 280px;
+        margin-top: 100px;
         &:active{
             background: transparent;
             border: 5px solid map-get($colores , color1 );

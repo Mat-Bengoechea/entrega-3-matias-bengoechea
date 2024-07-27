@@ -5,18 +5,20 @@
     margin-right: 100px;
 }
 .title-nosotros-principal{
-    .h1{
+    h1{
         color: map-get($colores , color2 );
         font-size: 55px;
         margin-top: -790px;
         text-transform: $texto-transfor;
         letter-spacing: 9px;
+        margin-left: 50px;
     }
-    .h2{
+    h2{
         @include color-degrade-30;
         font-size: 40px;
         text-transform: $texto-transfor;
         letter-spacing: 9px;
+        margin-left: 110px;
     }
     img{
         margin-top: 50px;
@@ -130,7 +132,7 @@ font-weight: 300px;
     margin-left: 750px;
     display: flex;
     flex-direction: column;
-    filter: drop-shadow(0px 10px 10px map-get($colores , color3 )) opacity(2);
+    filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
     .h2-card2{
         text-align: center;
         margin-top: 100px;
@@ -252,10 +254,9 @@ font-weight: 300px;
             font-weight: bold;
         }
     }
-    .img{
-        display: flex;
-        justify-content: center;
+    img{
         margin-top: 50px;
+        margin-left: 55px;
     }
     .buttom-nosotros2{
         width: 363px;

@@ -549,7 +549,7 @@ header {
 
 .title-educacion .h2-educacionfinanciera {
   font-size: 18px;
-  margin-left: 6.25rem;
+  margin-left: 9.6875rem;
   margin-top: .625rem;
   color: #E8E8E8; }
 
@@ -1073,14 +1073,15 @@ header {
   margin-top: 100px;
   margin-right: 100px; }
 
-.title-nosotros-principal .h1 {
+.title-nosotros-principal h1 {
   color: #E8E8E8;
   font-size: 55px;
   margin-top: -790px;
   text-transform: uppercase;
-  letter-spacing: 9px; }
+  letter-spacing: 9px;
+  margin-left: 50px; }
 
-.title-nosotros-principal .h2 {
+.title-nosotros-principal h2 {
   background: #00ffda;
   background: linear-gradient(90deg, #00ffda 0%, #3c3df7 30%);
   background-clip: text;
@@ -1088,7 +1089,8 @@ header {
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   text-transform: uppercase;
-  letter-spacing: 9px; }
+  letter-spacing: 9px;
+  margin-left: 110px; }
 
 .title-nosotros-principal img {
   margin-top: 50px;
@@ -1197,7 +1199,7 @@ header {
   margin-left: 750px;
   display: flex;
   flex-direction: column;
-  filter: drop-shadow(0px 10px 10px #BEBEBE) opacity(2); }
+  filter: drop-shadow(0px 10px 10px #202020) opacity(2); }
   .card2-nosotros .h2-card2 {
     text-align: center;
     margin-top: 100px;
@@ -1307,10 +1309,9 @@ header {
   .info-nosotros-fin .p-nosotros2 .comienza-constr {
     font-weight: bold; }
 
-.info-nosotros-fin .img {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px; }
+.info-nosotros-fin img {
+  margin-top: 50px;
+  margin-left: 55px; }
 
 .info-nosotros-fin .buttom-nosotros2 {
   width: 363px;
@@ -1364,14 +1365,13 @@ header {
   grid-template-areas: "perfil-usu" "menu-derecho" "info-perso" "objetivo-fina" "herram-inter" "soport-asis" "cerrar-sesion";
   grid-row-gap: none;
   grid-column-gap: none; }
-  .contenedor-derecho-perfil .clums-perfil img {
+  .contenedor-derecho-perfil .clums-perfil {
     margin-top: -120px;
     margin-left: 5px; }
-  .contenedor-derecho-perfil .img-perfil img {
+  .contenedor-derecho-perfil .img-perfil {
     grid-area: perfil-usu;
-    margin-top: -450px;
-    margin-left: 30px;
-    position: absolute; }
+    margin-top: 70px;
+    margin-left: 30px; }
   .contenedor-derecho-perfil .h2-nombreuser {
     grid-area: perfil-usu;
     font-size: 16px;
@@ -1383,7 +1383,7 @@ header {
     grid-area: perfil-usu;
     font-weight: 300;
     font-size: 14px;
-    margin-left: 145px;
+    margin-left: 130px;
     margin-top: 120px;
     color: #202020; }
   .contenedor-derecho-perfil .h2-menu {
@@ -1393,12 +1393,12 @@ header {
     font-size: 40px;
     color: #BEBEBE;
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 45px; }
   .contenedor-derecho-perfil .menu-dere-1 {
     grid-area: info-perso;
     list-style: none;
     text-align: center;
-    margin-top: -275px;
+    margin-top: -100px;
     margin-left: 50px;
     font-size: 21px;
     background: #00ffda;
@@ -1465,7 +1465,7 @@ header {
     font-weight: bold;
     margin-left: 70px;
     border: none;
-    margin-top: 280px; }
+    margin-top: 100px; }
     .contenedor-derecho-perfil .button-cerrar:active {
       background: transparent;
       border: 5px solid #202020;
