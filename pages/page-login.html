@@ -17,28 +17,36 @@
     <link rel="icon" href="../assets/logo/icon-logo.ico">    
 </head>
 <body>
-    <header></header>
     <main>
-        <section class="formulario-inición-sesion fuenteRadioCanadabig">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                </div>
+        <section class="formulario-inición-sesion fuenteRadioCanadabig vstack gap-1 col-md-6 mx-auto text-bg-light rounded-5 position-absolute top-50 start-50 translate-middle">
+            <div class="mb-4 text-bg-light p-3 d-grid gap-2 col-6 mx-auto rounded-3">
+                <label for="exampleFormControlInput1" class="form-label col-sm-2 col-form-label fs-3 fw-bold text-uppercase text-primary">Correo Electronico</label>
+                <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
             </div>
-            <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="mb-3 row text-bg-light p-3 d-grid gap-2 col-6 mx-auto rounded-3">
+                <label for="inputPassword" class="col-sm-2 col-form-label text-uppercase fs-3 fw-bold text-primary ">Contraseña</label>
                 <div class="col-sm-10">
                 <input type="password" class="form-control" id="inputPassword">
                 </div>
             </div>
-            <div class="registrarse-enlace">
-            <a href="./perfil.html"> <span class="pregunta-registro">¿Aún no tienes una cuenta?</span>Regístrate aquí</a>
+            <div class="registrarse-enlace d-grid gap-2 col-6 mx-auto text-decoration-none rounded-3 text-bg-light">
+            <a href="./perfil.html"> <span class="pregunta-registro ">¿Aún no tienes una cuenta?</span>Regístrate aquí</a>
             </div>
-            <button class="bonton-iniciar sesion">Iniciar Sesión</button>
+            <div class="form-check text-bg-light d-grid gap-2 col-6 mx-auto rounded-3">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            <div class="bonton-iniciar-login d-grid gap-2 col-6 mx-auto">
+                <button type="button" class="btn btn-light btn-lg justify-center text-uppercase fs-3 fw-bold text-bg-dark p-3 text-decoration-none rounded-pill"> <a href="./perfil.html">Iniciar Sesión</a></button>
+            </div>
         </section>
     </main>
-    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
