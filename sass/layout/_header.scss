@@ -43,7 +43,13 @@ header{
         &:active{
             background: rgb(0,255,218);
             background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
-            color: map-get($colores, color2);
+            a{
+                color: map-get($colores, color2);
+            }
+    }
+    a{
+        text-decoration: none;
+        color: map-get($colores , color1 );
     }
 }
 }

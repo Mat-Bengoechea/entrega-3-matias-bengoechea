@@ -50,3 +50,17 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin you($size){
+    font-family:"montserrat alter" ;
+    src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+    font-size: $size;
+    font-weight: bold;
+}
+
+@mixin financ($size){
+    font-family:"montserrat" ;
+    src: url(../assets/fonts/Montserrat-Black.ttf);
+    font-size: $size;
+    font-weight: 900;
+}

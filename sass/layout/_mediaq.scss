@@ -491,12 +491,6 @@ footer{
             }
 }
 
-
-
-
-
-
-
 .sector-contactanos{
     @include grid(500px 500px,400px 400px,"h1 h1" "card1 card2",50px,none);
     margin-top: 120px;
@@ -547,6 +541,227 @@ footer{
         font-size: 12px;
         font-weight: 400;
         margin-top: 50px;
+    }
+}
+
+.img-nosotros{
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 800px;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 55px;
+        margin-top: -790px;
+        letter-spacing: 9px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 40px;
+        letter-spacing: 9px;
+        margin-left: 110px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 150px;
+        height: 150px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 160px;
+height: 655px;
+@include grid(500px 500px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 18px;
+    margin-top: 60px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 40px;
+    margin-top: 35px;
+}
+.h2-2nosotros{
+    font-size: 40px;
+}
+.parrafo-somo{
+    margin-top: 35px;
+    font-size: 20px;
+font-weight: 300px;
+letter-spacing: -0.5px;
+.you{
+    @include you(20px);
+}
+.financ{
+    @include financ(20px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 20px;
+font-weight: 300px;
+.queremos-nosotros{
+    font-size: 21px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 25px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 40px;
+        font-size: 35px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 60px;
+        }
+    }
+    .retangulo-nosotros{
+        height: 4px;
+        width: 250px;
+        margin-left: 110px;
+        margin-top: 5px;
+    }
+    .descr-card1{
+        font-size: 20px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(20px);
+    }
+    .financ{
+        @include financ(20px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 530px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 40px;
+        font-size: 35px;
+        .enfoque{
+            font-size: 60px;
+        }
+    }
+    .descr-card2{
+        font-size: 20px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(20px);
+    }
+    .financ{
+        @include financ(20px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 1170px;
+    border-radius: 0px 0px 100px 100px;
+    height: 966px;
+    @include grid(410px 510px,330px 164px 164px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 130px;
+        font-size: 35px;
+    }
+    .p-ofrecemos{
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 170px;
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 70px;
+        width: 350px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .parrafos-finales{
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+        .p-ofrecemos2{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 17px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 17px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 17px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 45px;
+        letter-spacing: 9px;
+        margin-top: 150px;
+    }
+    .p-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 50px;
+        .you{
+            @include you(18px);
+        }
+        .financ{
+            @include financ(18px);
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 35px;
+        width: 950px;
+    }
+    .buttom-nosotros2{
+        width: 320px;
+        height: 70px;
+        border-radius: 100px;
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 350px;
+        margin-top: -45px;
+        border: 8px solid map-get($colores , color1 );
     }
 }
 }
@@ -1109,6 +1324,235 @@ footer{
         }
     }
 }
+.img-nosotros{
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 550px;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 35px;
+        margin-top: -520px;
+        letter-spacing: 9px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 90px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 120px;
+        height: 130px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 50px;
+border-radius: 70px 70px 0px 0px;
+height: 550px;
+@include grid(384px 384px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 16px;
+    margin-top: 60px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.h2-2nosotros{
+    font-size: 35px;
+    margin-left: 20px;
+}
+.parrafo-somo{
+    margin-top: 35px;
+    font-size: 16px;
+font-weight: 300px;
+letter-spacing: -0.5px;
+width: 350px;
+.you{
+    @include you(16px);
+}
+.financ{
+    @include financ(16px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 16px;
+font-weight: 300px;
+.queremos-nosotros{
+    font-size: 17px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 25px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 50px;
+        font-size: 25px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 40px;
+        }
+    }
+    .retangulo-nosotros{
+display: none;
+    }
+    .descr-card1{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 405px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 50px;
+        font-size: 25px;
+        .enfoque{
+            font-size: 40px;
+        }
+    }
+    .descr-card2{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 850px;
+    border-radius: 0px 0px 100px 100px;
+    height: 750px;
+    @include grid(355px 400px,330px 90px 90px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 130px;
+        font-size: 30px;
+    }
+    .p-ofrecemos{
+display: none;
+    }
+    .p-ofrecemos-reponsive{
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 170px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        .you{
+            @include you(12px);
+        }
+        .financ{
+            @include financ(12px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        width: 350px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .parrafos-finales{
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .p-ofrecemos2{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-top: 150px;
+    }
+    .p-nosotros2{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 50px;
+        width: 470px;
+        margin-left: 160px;
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 670px;
+    }
+    .buttom-nosotros2{
+        width: 230px;
+        height: 55px;
+        border-radius: 100px;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 270px;
+        margin-top: -30px;
+        border: 8px solid map-get($colores , color1 );
+    }
+}
 }
 
 @media(max-width:480px){
@@ -1180,10 +1624,17 @@ header{
             font-weight: bold;
             margin-left: 25px;
             border: none;
+            a{
+                margin-left: -5px;
+                text-decoration: none;
+                color: map-get($colores , color2 );
+            }
             &:active{
                 background: rgb(0,255,218);
                 background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
-                color: map-get($colores , color2 );
+            a{
+                color: map-get($colores , color1 );
+            }
             }
         }
     }
@@ -1779,6 +2230,270 @@ footer{
             font-weight: 400;
             margin-top: 50px;
         }
+    }
+}
+.img-nosotros{
+display: none;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 35px;
+        margin-top: 50px;
+        letter-spacing: 9px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 200px;
+        height: 130px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 50px;
+border-radius: 70px 70px 0px 0px;
+height: 550px;
+@include grid(240px 240px,70px 70px 100px 90px 150px,"introduccion introduccion" "titulo-somo titulo-somo" "parrafo-somo parrafo-somo" "titulo-nuestro titulo-nuestro" "parrafo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 16px;
+    margin-top: 20px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+.h2-2nosotros{
+    font-size: 24px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 0px;
+}
+.parrafo-somo{
+    margin-top: 0px;
+    font-size: 16px;
+font-weight: 300px;
+text-align: center;
+margin-left: 50px;
+letter-spacing: -0.5px;
+width: 350px;
+.you{
+    @include you(16px);
+}
+.financ{
+    @include financ(16px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 16px;
+font-weight: 300px;
+text-align: center;
+.queremos-nosotros{
+    font-size: 17px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 70px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 50px;
+        font-size: 25px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 40px;
+        }
+    }
+    .retangulo-nosotros{
+display: none;
+    }
+    .descr-card1{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 366px;
+    width: 340px;
+    margin-top: 950px;
+    margin-left: 70px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 50px;
+        font-size: 25px;
+        .enfoque{
+            font-size: 40px;
+        }
+    }
+    .descr-card2{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 1250px;
+    border-radius: 0px 0px 100px 100px;
+    height: 750px;
+    @include grid(240px 240px,170px 80px 65px 65px 65px 230px,"titulo-q titulo-q" "texto-prin texto-prin" "lista-p1 lista-p1" "lista-s2 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 80px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .p-ofrecemos{
+display: none;
+    }
+    .p-ofrecemos-reponsive{
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 0px;
+        width: 400px;
+        text-align: center;
+        margin-left: 35px;
+        .you{
+            @include you(17px);
+        }
+        .financ{
+            @include financ(17px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        width: 350px;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 65px;
+        width: 350px;
+    }
+    .parrafos-finales{
+display: none;
+    }
+    .parrafos-finales-reponsive{
+        width: 400px;
+        display: block;
+        text-align: center;
+        margin-left: 40px;
+        grid-area: texto-fin;
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .p-ofrecemos2{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-top: 70px;
+    }
+    .p-nosotros2{
+display: none;
+    }
+    .p-nosotros2-reponsive{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: map-get($colores , color2 );
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .comienza-constr{
+            font-weight: bold;
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 440px;
+    }
+    .buttom-nosotros2{
+        width: 200px;
+        height: 55px;
+        border-radius: 100px;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 135px;
+        margin-top: -30px;
+        border: 8px solid map-get($colores , color1 );
     }
 }
 }
@@ -2475,4 +3190,270 @@ footer{
         margin-top: 50px;
     }
 }
+.img-nosotros{
+    display: none;
+    }
+    .title-nosotros-principal{
+        h1{
+            font-size: 35px;
+            margin-top: 50px;
+            letter-spacing: 9px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        h2{
+            font-size: 30px;
+            letter-spacing: 9px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 130px;
+            height: 130px;
+        }
+    }
+    .contenedor1-superior{
+        width: 100%;
+    margin-top: 50px;
+    border-radius: 70px 70px 0px 0px;
+    height: 550px;
+    @include grid(320px,70px 70px 100px 90px 150px,"introduccion" "titulo-somo" "parrafo-somo" "titulo-nuestro" "parrafo-nuestro",none,none);
+    .frase-nosotros{
+        font-size: 12px;
+        margin-top: 20px;
+        width: 220px;
+        text-align: center;
+        margin-left: 45px;
+        .nombre-actor{
+            font-weight: 600;
+        }
+    }
+    .h2-1nosotros{
+        font-size: 30px;
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .h2-2nosotros{
+        font-size: 24px;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .parrafo-somo{
+        margin-top: 0px;
+        font-size: 12px;
+    font-weight: 300px;
+    text-align: center;
+    margin-left: 7px;
+    letter-spacing: -0.5px;
+    width: 300px;
+    .you{
+        @include you(16px);
+    }
+    .financ{
+        @include financ(16px);
+    }
+    }
+    .parrafo-nuestro{
+        margin-top: 15px;
+        font-size: 12px;
+    font-weight: 300px;
+    text-align: center;
+    width: 290px;
+    margin-left: 15px;
+    .queremos-nosotros{
+        font-size: 17px;
+    }
+    }
+    }
+    
+    .card1-nosotros{
+        border-radius: 100px;
+        height: 320px;
+        width: 270px;
+        margin-top: 550px;
+        margin-left: 25px;
+        border-radius: 70px;
+        .h2-card1{
+            margin-top: 25px;
+            font-size: 25px;
+            .mision{
+                letter-spacing: 9px;
+                font-size: 40px;
+            }
+        }
+        .retangulo-nosotros{
+    display: none;
+        }
+        .descr-card1{
+            font-size: 12px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(13px);
+        }
+        .financ{
+            @include financ(13px);
+        }
+        }
+    }
+    .card2-nosotros{
+        height: 320px;
+        width: 270px;
+        margin-top: 950px;
+        margin-left: 25px;
+        border-radius: 70px;
+        .h2-card2{
+            margin-top: 25px;
+            font-size: 25px;
+            .enfoque{
+                font-size: 40px;
+            }
+        }
+        .descr-card2{
+            font-size: 12px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(13px);
+        }
+        .financ{
+            @include financ(13px);
+        }
+        }
+    }
+    .contenedor1-inferior{
+        margin-top: 1210px;
+        border-radius: 0px 0px 100px 100px;
+        height: 750px;
+        @include grid(320px,170px 70px 60px 65px 60px 230px,"titulo-q" "texto-prin" "lista-p1" "lista-s2" "lista-t3" "texto-fin",10px,none);
+        .h2-ofrecemos{
+            margin-top: 80px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .p-ofrecemos{
+    display: none;
+        }
+        .p-ofrecemos-reponsive{
+            font-weight: 300;
+            font-size: 12px;
+            margin-top: 0px;
+            width: 290px;
+            text-align: center;
+            margin-left: 10px;
+            .you{
+                @include you(17px);
+            }
+            .financ{
+                @include financ(17px);
+            }
+        }
+        .lista-nosotros1{
+            font-size: 14px;
+            font-weight: 300;
+            width: 250px;
+            text-align: center;
+            margin-left: 35px;
+        }
+        .lista-nosotros2{
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 10px;
+            width: 250px;
+            text-align: center;
+            margin-left: 35px;
+        }
+        .lista-nosotros3{
+            font-size: 14px;
+            font-weight: 200;
+            text-align: center;
+            margin-left: 35px;
+            width: 250px;
+        }
+        .parrafos-finales{
+    display: none;
+        }
+        .parrafos-finales-reponsive{
+            width: 270px;
+            display: block;
+            text-align: center;
+            margin-left: 20px;
+            grid-area: texto-fin;
+            .you{
+                @include you(14px);
+            }
+            .financ{
+                @include financ(14px);
+            }
+            .p-ofrecemos2{
+                font-size: 14px;
+                font-weight: 300;
+            }
+            
+            .p-ofrecemos3{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 15px;
+            }
+            
+            .p-ofrecemos32{
+                font-size: 12px;
+                font-weight: 300;
+            }
+            
+            .p-ofrecemos33{
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    .info-nosotros-fin{
+        .h2-nosotros2{
+            font-size: 20px;
+            letter-spacing: 9px;
+            margin-top: 70px;
+        }
+        .p-nosotros2{
+    display: none;
+        }
+        .p-nosotros2-reponsive{
+            font-size: 15px;
+            font-weight: 300;
+            margin-top: 50px;
+            width: 300px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: map-get($colores , color2 );
+            .you{
+                @include you(16px);
+            }
+            .financ{
+                @include financ(16px);
+            }
+            .comienza-constr{
+                font-weight: bold;
+            }
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 5px;
+            width: 310px;
+        }
+        .buttom-nosotros2{
+            width: 150px;
+            height: 45px;
+            border-radius: 100px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            margin-left: 85px;
+            margin-top: -25px;
+            border: 6px solid map-get($colores , color1 );
+        }
+    }
 }
