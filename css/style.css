@@ -80,6 +80,8 @@ header {
     header .bonton a {
       text-decoration: none;
       color: #202020; }
+  header .nav-menu-hamburgueza {
+    display: none; }
 
 .imagen-indexarriba {
   height: 81.25rem;
@@ -1699,6 +1701,624 @@ footer {
 @media (min-width: 1440px) {
   .nav-menu-hamburgueza {
     display: none; } }
+
+@media (max-width: 1245px) {
+  header {
+    padding-right: 25px; }
+    header .nav-menu-hamburgueza {
+      display: none; }
+    header .logo img {
+      height: 20px;
+      margin: 25px; }
+    header .menu {
+      margin-right: 25px;
+      margin: 0 5px;
+      margin-left: 300px; }
+    header .menu li {
+      margin-right: 20px; }
+    header .menu a {
+      font-size: 14px; }
+    header .bonton {
+      width: 145px;
+      height: 35px;
+      font-size: 14px;
+      margin-left: 25px; }
+  .imagen-indexarriba {
+    height: 950px;
+    padding-top: 50px; }
+    .imagen-indexarriba img {
+      height: 950px; }
+  .h1-index {
+    font-size: 32px;
+    margin-left: 1.5625rem;
+    margin-top: -850px;
+    letter-spacing: 6px; }
+  .texto-secudario-index .h2-index {
+    font-size: 18px;
+    margin-left: 1.5625rem;
+    margin-top: 5px; }
+  .texto-secudario-index .medium-h2 {
+    margin-left: 1.125rem; }
+  .texto-secudario-index .retangulo {
+    height: 3px;
+    margin-left: 20px;
+    width: 375px; }
+  .texto-secudario-index .unete-ahora {
+    width: 270px;
+    height: 65px;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-top: 45px;
+    letter-spacing: 2.5px; }
+  .texto-secudario-index .icon-flecha-circular {
+    margin-left: 220px;
+    margin-top: 55px; }
+    .texto-secudario-index .icon-flecha-circular img {
+      height: 140px; }
+  .contador-general {
+    display: grid;
+    grid-template-columns: 12.5rem 12.5rem 12.5rem;
+    grid-template-rows: 6.25rem 6.25rem;
+    grid-template-areas: "contador imagenes imagenes" "contador descripcion descripcion";
+    grid-row-gap: none;
+    grid-column-gap: none;
+    margin-left: 25px;
+    margin-top: 70px; }
+    .contador-general .contador {
+      width: 152px;
+      height: 154px;
+      font-size: 45px;
+      margin-top: 15px; }
+    .contador-general .imagenes img {
+      width: 300px;
+      margin-left: -65px;
+      margin-top: 10px; }
+    .contador-general .descripcion {
+      font-size: 16px; }
+      .contador-general .descripcion p {
+        margin-left: -70px; }
+    .contador-general .num-40 {
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: underline; }
+    .contador-general .neurona {
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: underline; }
+  .contenedor-personaliza {
+    height: 480px;
+    margin-top: 150px; }
+    .contenedor-personaliza .h2-personaliza {
+      font-size: 40px;
+      padding-top: 70px; }
+    .contenedor-personaliza .text-inferior {
+      font-size: 26px; }
+    .contenedor-personaliza .p-personaliza {
+      font-size: 15px;
+      margin-top: -220px;
+      margin-left: 500px; }
+      .contenedor-personaliza .p-personaliza span.line-break {
+        margin-bottom: 5px; }
+      .contenedor-personaliza .p-personaliza .control-futuro {
+        font-size: 20px; }
+      .contenedor-personaliza .p-personaliza .you {
+        font-size: 20px; }
+      .contenedor-personaliza .p-personaliza .financ {
+        font-size: 20px; }
+  .contenido-usuario-principal {
+    display: grid;
+    grid-template-columns: 267px 200px 200px 200px;
+    grid-template-rows: none;
+    grid-template-areas: none;
+    grid-row-gap: none;
+    grid-column-gap: none;
+    margin-top: -130px;
+    grid-gap: 20px; }
+    .contenido-usuario-principal .conten-info-person {
+      width: 267px;
+      height: 350px;
+      border-radius: 35px; }
+      .contenido-usuario-principal .conten-info-person .icon-personal {
+        width: 58px;
+        height: 58px;
+        margin-top: 30px;
+        margin-left: 20px; }
+        .contenido-usuario-principal .conten-info-person .icon-personal img {
+          width: 38px;
+          height: 38px; }
+      .contenido-usuario-principal .conten-info-person .h2-info-perfil {
+        font-size: 14px;
+        margin-left: 95px;
+        margin-top: -55px; }
+      .contenido-usuario-principal .conten-info-person .p-gestiona {
+        font-size: 15px;
+        margin-top: 30px; }
+      .contenido-usuario-principal .conten-info-person .lista-clasificacion {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 200px;
+        margin-left: 35px; }
+      .contenido-usuario-principal .conten-info-person .empezar {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 60px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-info-person .empezar .textbutton {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-info-person .empezar .iconbutton {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-info-person .empezar img {
+          width: 24px;
+          height: 24px; }
+    .contenido-usuario-principal .conten-objetivo {
+      width: 200px;
+      height: 300px;
+      border-radius: 40px; }
+      .contenido-usuario-principal .conten-objetivo .icon-objetivo {
+        width: 58px;
+        height: 58px;
+        margin-top: 40px;
+        margin-left: 70px; }
+        .contenido-usuario-principal .conten-objetivo .icon-objetivo img {
+          width: 38px;
+          height: 38px; }
+      .contenido-usuario-principal .conten-objetivo .h2-objetivo-finan {
+        margin-top: 50px;
+        font-size: 12px; }
+      .contenido-usuario-principal .conten-objetivo .empezar2 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-objetivo .empezar2 .textbutton2 {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-objetivo .empezar2 .iconbutton2 {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-objetivo .empezar2 img {
+          width: 24px;
+          height: 24px; }
+    .contenido-usuario-principal .conten-herramienta {
+      width: 200px;
+      height: 300px;
+      border-radius: 40px; }
+      .contenido-usuario-principal .conten-herramienta .icon-herramienta {
+        width: 58px;
+        height: 58px;
+        margin-top: 40px;
+        margin-left: 75px; }
+        .contenido-usuario-principal .conten-herramienta .icon-herramienta img {
+          width: 38px;
+          height: 38px; }
+      .contenido-usuario-principal .conten-herramienta .h2-herramientas-inter {
+        margin-top: 50px;
+        font-size: 12px; }
+      .contenido-usuario-principal .conten-herramienta .empezar3 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 .textbutton3 {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 .iconbutton3 {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 img {
+          width: 24px;
+          height: 24px; }
+    .contenido-usuario-principal .conten-soporte {
+      width: 200px;
+      height: 300px;
+      border-radius: 40px; }
+      .contenido-usuario-principal .conten-soporte .icon-soporte {
+        width: 58px;
+        height: 58px;
+        margin-top: 40px;
+        margin-left: 75px; }
+        .contenido-usuario-principal .conten-soporte .icon-soporte img {
+          width: 38px;
+          height: 38px; }
+      .contenido-usuario-principal .conten-soporte .h2-soporte-asist {
+        margin-top: 50px;
+        font-size: 12px; }
+      .contenido-usuario-principal .conten-soporte .empezar4 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-soporte .empezar4 .textbutton4 {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-soporte .empezar4 .iconbutton4 {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-soporte .empezar4 img {
+          width: 24px;
+          height: 24px; }
+  .title-segundo .h2-index2 {
+    letter-spacing: 6px;
+    font-size: 45px;
+    margin-top: 140px; }
+  .title-segundo .h3-index2 {
+    font-size: 12px;
+    margin-top: 30px; }
+  .title-segundo .p-index2 {
+    font-size: 12px;
+    margin-top: 20px; }
+  .title-segundo img {
+    width: 930px;
+    margin-top: 40px; }
+  .title-segundo .buttom-index2 {
+    width: 255px;
+    height: 70px;
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-left: 384px;
+    margin-top: -30px;
+    border: 7px solid #202020; }
+  footer {
+    padding-right: 30px;
+    border-radius: 100px 100px 0px 0px;
+    width: 950px;
+    height: 200px;
+    margin-left: 37px;
+    margin-top: 200px; }
+    footer .menu-footer ul {
+      padding: 0;
+      margin-right: 30px;
+      margin: 0 10px;
+      margin-left: 40px; }
+    footer .menu-footer li {
+      margin-right: 15px; }
+    footer .menu-footer a {
+      font-size: 12px; }
+    footer .logo-footer {
+      margin-left: 10px; }
+    footer .redes-sociales li {
+      margin-right: 20px; }
+    footer .copy-mat img {
+      width: 250px; }
+  .imag-contacto {
+    margin-top: 100px; }
+    .imag-contacto img {
+      width: 680px; }
+  .title-1-contacto .h1-contacto {
+    font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: -270px; }
+  .title-1-contacto .h2-contacto {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 9px;
+    margin-top: 30px; }
+  .title-1-contacto .p-contacto {
+    margin-top: 100px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 300; }
+    .title-1-contacto .p-contacto .contacto-nosotros {
+      font-size: 23px; }
+  .contenedor-formulario {
+    width: 1024px;
+    height: 694px;
+    background: #E8E8E8;
+    border-radius: 100px 100px 0px 0px;
+    box-shadow: inset 0px 10px 10px #BEBEBE;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 21.6875rem 21.6875rem;
+    grid-template-areas: "envianos formulario" "descripcion boton-formulario";
+    grid-row-gap: none;
+    grid-column-gap: 0px; }
+    .contenedor-formulario .h2-contacto-envianos {
+      font-size: 35px;
+      grid-area: envianos;
+      margin-top: 70px;
+      margin-left: 90px; }
+    .contenedor-formulario .p-contacto2 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: -90px;
+      margin-left: 90px; }
+    .contenedor-formulario .formulario {
+      font-size: 24px;
+      font-weight: 400;
+      width: 400px;
+      margin-top: 50px; }
+      .contenedor-formulario .formulario .input-form input {
+        margin-top: 50px;
+        margin-left: -220px;
+        border-radius: 100px;
+        height: 54px;
+        width: 450px; }
+      .contenedor-formulario .formulario .input-form2 {
+        margin-top: 80px; }
+        .contenedor-formulario .formulario .input-form2 input {
+          margin-top: 50px;
+          margin-left: -230px;
+          border-radius: 100px;
+          height: 54px;
+          width: 450px; }
+      .contenedor-formulario .formulario .input-form3 {
+        margin-top: 80px; }
+        .contenedor-formulario .formulario .input-form3 input {
+          margin-top: 50px;
+          margin-left: -126px;
+          border-radius: 50px;
+          height: 173px;
+          width: 450px; }
+      .contenedor-formulario .formulario .botton-formulario {
+        grid-area: boton-formulario; }
+        .contenedor-formulario .formulario .botton-formulario .bonton-input {
+          width: 200px;
+          height: 50px;
+          border-radius: 100px;
+          font-size: 24px;
+          margin-left: 100px;
+          letter-spacing: 3px;
+          margin-top: 250px; }
+  .sector-contactanos {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "h1 h1" "card1 card2";
+    grid-row-gap: 50px;
+    grid-column-gap: none;
+    margin-top: 120px; }
+    .sector-contactanos .h2-contacto2 {
+      font-size: 50px;
+      margin-top: 150px; }
+    .sector-contactanos .correo-electronico-contenedor {
+      border-radius: 50px;
+      width: 237px;
+      height: 226px;
+      margin-left: 160px;
+      margin-top: 50px; }
+      .sector-contactanos .correo-electronico-contenedor img {
+        height: 65px;
+        margin-left: 90px;
+        margin-top: 20px; }
+      .sector-contactanos .correo-electronico-contenedor .h2-card1contacto {
+        margin-top: 10px;
+        font-size: 18px; }
+      .sector-contactanos .correo-electronico-contenedor .p-card1contacto {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px; }
+  .telefono-contenedor {
+    border-radius: 50px;
+    width: 237px;
+    height: 226px;
+    margin-left: 80px;
+    margin-top: 50px; }
+    .telefono-contenedor img {
+      height: 65px;
+      margin-left: 90px;
+      margin-top: 20px; }
+    .telefono-contenedor .h1-card2contacto {
+      margin-top: 10px;
+      font-size: 18px; }
+    .telefono-contenedor .p-card2contacto {
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 50px; }
+  .img-nosotros {
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 800px; }
+  .title-nosotros-principal h1 {
+    font-size: 55px;
+    margin-top: -790px;
+    letter-spacing: 9px;
+    margin-left: 50px; }
+  .title-nosotros-principal h2 {
+    font-size: 40px;
+    letter-spacing: 9px;
+    margin-left: 110px; }
+  .title-nosotros-principal img {
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 150px; }
+  .contenedor1-superior {
+    width: 100%;
+    margin-top: 160px;
+    height: 655px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 100px 150px 200px;
+    grid-template-areas: "introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro";
+    grid-row-gap: none;
+    grid-column-gap: none; }
+    .contenedor1-superior .frase-nosotros {
+      font-size: 18px;
+      margin-top: 60px; }
+      .contenedor1-superior .frase-nosotros .nombre-actor {
+        font-weight: 600; }
+    .contenedor1-superior .h2-1nosotros {
+      font-size: 40px;
+      margin-top: 35px; }
+    .contenedor1-superior .h2-2nosotros {
+      font-size: 40px; }
+    .contenedor1-superior .parrafo-somo {
+      margin-top: 35px;
+      font-size: 20px;
+      font-weight: 300px;
+      letter-spacing: -0.5px; }
+      .contenedor1-superior .parrafo-somo .you {
+        font-family: "montserrat alter";
+        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 20px;
+        font-weight: bold; }
+      .contenedor1-superior .parrafo-somo .financ {
+        font-family: "montserrat";
+        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-size: 20px;
+        font-weight: 900; }
+    .contenedor1-superior .parrafo-nuestro {
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: 300px; }
+      .contenedor1-superior .parrafo-nuestro .queremos-nosotros {
+        font-size: 21px; }
+  .card1-nosotros {
+    border-radius: 100px;
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 25px;
+    border-radius: 70px; }
+    .card1-nosotros .h2-card1 {
+      margin-top: 40px;
+      font-size: 35px; }
+      .card1-nosotros .h2-card1 .mision {
+        letter-spacing: 9px;
+        font-size: 60px; }
+    .card1-nosotros .retangulo-nosotros {
+      height: 4px;
+      width: 250px;
+      margin-left: 110px;
+      margin-top: 5px; }
+    .card1-nosotros .descr-card1 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: 40px; }
+      .card1-nosotros .descr-card1 .you {
+        font-family: "montserrat alter";
+        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 20px;
+        font-weight: bold; }
+      .card1-nosotros .descr-card1 .financ {
+        font-family: "montserrat";
+        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-size: 20px;
+        font-weight: 900; }
+  .card2-nosotros {
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 530px;
+    border-radius: 70px; }
+    .card2-nosotros .h2-card2 {
+      margin-top: 40px;
+      font-size: 35px; }
+      .card2-nosotros .h2-card2 .enfoque {
+        font-size: 60px; }
+    .card2-nosotros .descr-card2 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: 40px; }
+      .card2-nosotros .descr-card2 .you {
+        font-family: "montserrat alter";
+        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 20px;
+        font-weight: bold; }
+      .card2-nosotros .descr-card2 .financ {
+        font-family: "montserrat";
+        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-size: 20px;
+        font-weight: 900; }
+  .contenedor1-inferior {
+    margin-top: 1170px;
+    border-radius: 0px 0px 100px 100px;
+    height: 966px;
+    display: grid;
+    grid-template-columns: 410px 510px;
+    grid-template-rows: 330px 164px 164px 240px;
+    grid-template-areas: "titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin";
+    grid-row-gap: 10px;
+    grid-column-gap: none; }
+    .contenedor1-inferior .h2-ofrecemos {
+      margin-top: 130px;
+      font-size: 35px; }
+    .contenedor1-inferior .p-ofrecemos {
+      font-weight: 300;
+      font-size: 15px;
+      margin-top: 170px; }
+      .contenedor1-inferior .p-ofrecemos .you {
+        font-family: "montserrat alter";
+        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 20px;
+        font-weight: bold; }
+      .contenedor1-inferior .p-ofrecemos .financ {
+        font-family: "montserrat";
+        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-size: 20px;
+        font-weight: 900; }
+    .contenedor1-inferior .lista-nosotros1 {
+      font-size: 16px;
+      font-weight: 300;
+      width: 350px; }
+    .contenedor1-inferior .lista-nosotros2 {
+      font-size: 16px;
+      font-weight: 300;
+      margin-left: 70px;
+      width: 350px; }
+    .contenedor1-inferior .lista-nosotros3 {
+      font-size: 16px;
+      font-weight: 300; }
+    .contenedor1-inferior .parrafos-finales .you {
+      font-family: "montserrat alter";
+      src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+      font-size: 20px;
+      font-weight: bold; }
+    .contenedor1-inferior .parrafos-finales .financ {
+      font-family: "montserrat";
+      src: url(../assets/fonts/Montserrat-Black.ttf);
+      font-size: 20px;
+      font-weight: 900; }
+    .contenedor1-inferior .parrafos-finales .p-ofrecemos2 {
+      font-size: 20px;
+      font-weight: 300; }
+    .contenedor1-inferior .parrafos-finales .p-ofrecemos3 {
+      font-size: 17px;
+      font-weight: 300;
+      margin-top: 15px; }
+    .contenedor1-inferior .parrafos-finales .p-ofrecemos32 {
+      font-size: 17px;
+      font-weight: 300; }
+    .contenedor1-inferior .parrafos-finales .p-ofrecemos33 {
+      font-size: 17px;
+      font-weight: 300; }
+  .info-nosotros-fin .h2-nosotros2 {
+    font-size: 45px;
+    letter-spacing: 9px;
+    margin-top: 150px; }
+  .info-nosotros-fin .p-nosotros2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px; }
+    .info-nosotros-fin .p-nosotros2 .you {
+      font-family: "montserrat alter";
+      src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+      font-size: 18px;
+      font-weight: bold; }
+    .info-nosotros-fin .p-nosotros2 .financ {
+      font-family: "montserrat";
+      src: url(../assets/fonts/Montserrat-Black.ttf);
+      font-size: 18px;
+      font-weight: 900; }
+  .info-nosotros-fin img {
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 950px; }
+  .info-nosotros-fin .buttom-nosotros2 {
+    width: 320px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 30px;
+    letter-spacing: 9px;
+    margin-left: 350px;
+    margin-top: -45px;
+    border: 8px solid #202020; } }
 
 @media (max-width: 1024px) {
   header {
